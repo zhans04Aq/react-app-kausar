@@ -1,0 +1,37 @@
+.benefits{
+    margin-top: 130%;
+    width: 100%;
+    height: auto;
+    .component-title{
+        width: 100%;
+        height: auto;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        background: linear-gradient(158deg, #78c6ff 0%, #0057ff 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .scroller{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        
+        .scroller-wrapper{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 5%;
+            .scroller-item{
+                white-space: nowrap;
+                flex-shrink: 0;
+                -webkit-text-fill-color: white;
+                font-size: 15px;
+                letter-spacing: 0px;
+                animation: scroller-anim 3s linear infinite;
+            }
+        }
+    }
+}

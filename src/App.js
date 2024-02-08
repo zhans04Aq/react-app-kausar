@@ -3,6 +3,7 @@ import './App.scss';
 
 import Navbar from './components/navbar/Navbar'
 import Header from './components/header/Header';
+import Benefits from './components/benefits/Benefits';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="container">
           <Navbar/>
           <Header/>
+          <Benefits/>
       </div>
     </div>
   );

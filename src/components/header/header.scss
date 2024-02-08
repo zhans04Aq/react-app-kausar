@@ -1,6 +1,5 @@
 header{
     width: 100%;
-    height: auto;
     display: flex;
     .header-graph-el{
         position: absolute;
@@ -18,28 +17,63 @@ header{
         backdrop-filter: blur(40px);
         background: rgba(255, 255, 255, 0.04);
         border: 1px solid rgba(255, 255, 255, 0.28);
+        border-left: none;
         border-radius: 0 90px 90px 0;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
         align-items: flex-start;
-        align-content: space-around;
-        padding: 5%;
+        padding: 5% 0 10% 5%;
         box-sizing: border-box;
         color: white;
-    }
-
-    .button-container{
-        width: 20%;
-        padding: 2%;
-        border: none;
-        
-        button{
-            width: 100%;
-            border: none;
-            border-radius: 16px;
-            box-sizing: border-box;
-            padding: 10%;
+        h1{
+            font-weight: 500;
+            font-size: 35px;
+            letter-spacing: 0.04em;
+            background: linear-gradient(158deg, #78c6ff 0%, #2276ff 71.57%, #0057ff 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            margin-bottom: 7%;
         }
+        p{
+            font-family: var(--second-family);
+            font-weight: 800;
+            font-size: 30px;
+            color: #fff;
+            span{
+                background: linear-gradient(235deg, #06f 50%, #fff 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        .button-container{
+            position: relative;
+            left: 0;
+            width: 20%;
+            padding: 5% 0 0 0;
+            border: none;
+
+            button{
+                cursor: pointer;
+                width: 100%;
+                border: none;
+                border-radius: 16px;
+                box-sizing: border-box;
+                padding: 10%;
+                font-weight: 700;
+                font-size: 20px;
+                letter-spacing: 0.12em;
+                text-align: center;
+                color: #fff;
+                box-shadow: 0 10px 60px 0 rgba(41, 142, 174, 0.8), 0 20px 60px 0 rgba(98, 118, 224, 0.2), -20px -20px 50px 0 rgba(182, 117, 222, 0.4), inset 0 0 10px 0 rgba(255, 255, 255, 0.5);
+                background: radial-gradient(135.71% 87.74% at 33.81% 109.38%, rgb(102, 129, 226) 0%, rgb(102, 129, 226) 95.36771774291992%), radial-gradient(93.05% 104.93% at 20.17% -22.66%, rgb(29, 82, 160) 0%, rgb(29, 82, 160) 100%), radial-gradient(172.39% 156.26% at 105.11% -15.62%, rgb(19, 229, 213) 19.66448426246643%, rgb(19, 229, 213) 71.06243371963501%), radial-gradient(110.23% 86.2% at 57.38% 17.19%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+            }
+            button:hover{
+                border-radius: 16px;
+                background:#030303, radial-gradient(23.21% 114.66% at 43.75% -31.25%, rgb(24, 17, 24) 21.246936917304993%, rgb(0, 0, 0) 100%), radial-gradient(51.42% 94.92% at 19.32% 40.62%, rgb(24, 100, 183) 0%, rgb(23, 61, 102) 100%), radial-gradient(132.71% 129.73% at 63.64% -12.5%, rgb(133, 40, 251) 0%, rgb(86, 84, 74) 100%), radial-gradient(189.21% 70.1% at 15.34% 39.06%, rgb(131, 113, 243) 0%, rgb(69, 156, 236) 100%);
+                box-shadow: 10px 20px 80px 0 rgba(122, 33, 237, 0.3), -20px -20px 50px 0 rgba(42, 94, 142, 0.5), 0 20px 30px 0 rgba(64, 100, 228, 0.3), inset 0 0 30px 0 rgba(255, 255, 255, 0.3);
+            }
+    }
     }
 }

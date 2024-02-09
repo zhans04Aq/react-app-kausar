@@ -1,54 +1,61 @@
 nav{
     width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    img{
-        width: 15%;
-    }
+    position: sticky;
+    top: 5%;
+    z-index: 999;
 
-    .burger-menu{
-        width: 50%;
+    .desktop-container{
+        width: 100%;
         display: flex;
-        justify-content: end;
         align-items: flex-start;
-        gap: 2%;
+        justify-content: space-between;
         img{
-            width: 5%;
+            width: 15%;
         }
-
-        .menu{
-            display: none;
-            width: 12%;
-            height: auto;
-            background-color: white;
-            transition: all .5s ease-in-out;
-            border-radius: 20px;
-            text-align: start;
-            position: absolute;
-            right:18%;
-            div{
-                display: flex;
-                flex-direction: column;
-                a{ 
-                    padding: 12% 10% 10% 10%;
-                    box-sizing: border-box;
-                    position: relative;
-                    white-space: nowrap;
-                    border-bottom: 0.5px solid rgba(98, 98, 98, 0.52);
-                    font-size: 1.042vw;
-                    cursor: pointer;
-                    font-weight: 500;
-                }
-                a:last-child{
-                    border-bottom: none;
+    
+        .burger-menu{
+            width: 50%;
+            display: flex;
+            justify-content: end;
+            align-items: flex-start;
+            gap: 2%;
+            img{
+                width: 5%;
+            }
+    
+            .menu{
+                display: none;
+                width: 17%;
+                height: auto;
+                background-color: white;
+                transition: all .5s ease-in-out;
+                border-radius: 20px;
+                text-align: start;
+                position: absolute;
+                right:7%;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    a{ 
+                        padding: 12% 10% 10% 10%;
+                        box-sizing: border-box;
+                        position: relative;
+                        white-space: nowrap;
+                        border-bottom: 0.5px solid rgba(98, 98, 98, 0.52);
+                        font-size: 1.042vw;
+                        cursor: pointer;
+                        font-weight: 500;
+                    }
+                    a:last-child{
+                        border-bottom: none;
+                    }
                 }
             }
-        }
-        .active{
-            display: block;
-            transition: all .5s ease-in-out;
-            z-index: 999;
+            .active{
+                display: block;
+                transition: all .5s ease-in-out;
+                z-index: 999;
+            }
         }
     }
 }

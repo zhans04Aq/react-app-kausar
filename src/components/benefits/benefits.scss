@@ -1,37 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap');
+
 .benefits{
     margin-top: 130%;
     width: 100%;
     height: auto;
-    .component-title{
+    .desktop-container{
         width: 100%;
         height: auto;
-        font-size: 40px;
-        text-align: center;
-        font-weight: 500;
-        letter-spacing: 0.1em;
-        background: linear-gradient(158deg, #78c6ff 0%, #0057ff 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    .scroller{
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        
-        .scroller-wrapper{
+
+        .noise-fx{
+            position: absolute;
             width: 100%;
-            display: flex;
-            justify-content: center;
-            gap: 5%;
-            .scroller-item{
-                white-space: nowrap;
-                flex-shrink: 0;
-                -webkit-text-fill-color: white;
-                font-size: 15px;
-                letter-spacing: 0px;
-                animation: scroller-anim 3s linear infinite;
+            z-index: 3;
+            left: 0;
+        }
+        .component-title{
+            width: 100%;
+            height: auto;
+            font-size: 40px;
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            background: linear-gradient(158deg, #78c6ff 0%, #0057ff 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .scroller{
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            
+            .scroller-wrapper{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                gap: 5%;
+                .scroller-item{
+                    white-space: nowrap;
+                    flex-shrink: 0;
+                    -webkit-text-fill-color: white;
+                    font-size: 15px;
+                    letter-spacing: 0px;
+                    animation: scroller-anim 3s linear infinite;
+                }
             }
         }
+
+        .light-src{
+            position: absolute;
+            width: 40%;
+            z-index: 2;
+        }
+
+        #light-1{
+            left: 0;
+            top: 180%;
+        }
+        #light-2{
+            right: 0;
+        }
+        #light-3{
+            left: 0;
+            top: 350%;
+        }
+        #light-4{
+            right: 0;
+            top: 375%;
+            width: 30%;
+        }
+
+        .benefits-cards{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 5%;
+            box-sizing: border-box;
+            gap: 14%;
+            position: relative;
+            .card{
+                width: 43%;
+                height: auto;
+                border: 1px solid rgba(255, 255, 255, 0.43);
+                border-radius: 38px;
+                backdrop-filter: blur(30px);
+                background-color: linear-gradient(156deg, #fff 0%, #0e0d0d 100%);
+                padding: 6%;
+                box-sizing: border-box;
+                color: white;
+                font-family: 'JetBrains Mono', monospace;
+                margin: 10% 0;
+                div{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    gap: 5%;
+                        h1{
+                            font-weight: 700;
+                            font-size: 50px;
+                            letter-spacing: 0.1em;
+                            white-space: nowrap;
+                        }
+
+                        h3{
+                            font-weight: 400;
+                            font-size: 13px;
+                            background-color: #0057ff;
+                            padding: 1%;
+                            box-sizing: border-box;
+                            border-radius: 0.5rem;
+                            font-weight: 200;
+                        }
+                }
+
+                p{
+                    font-weight: 400;
+                    font-size: 23px;
+                }
+            }
+            .circle-element{
+                position: absolute;
+                z-index: 0;
+            }
+
+            #circle-1{
+                position: absolute;
+                left: 0;
+                top: 5%;
+            }
+            
+            #circle-2{
+                right: 0;
+                top: 37%;
+            }
+            
+            #circle-3{
+                left: 0;
+                bottom: 20%;
+            }
+            #circle-4{
+                bottom: 5%;
+                right: 5%;
+            }
+
+
+
+        }
+    }
+
+    .mobile-container{
+        display: none;
     }
 }

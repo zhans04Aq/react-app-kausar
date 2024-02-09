@@ -28,22 +28,24 @@ const Navbar = ({isActive}) =>{
 
     return(
         <nav>
-            <img src={logoPng} alt="" className="logo" />
-            <div className="burger-menu">
-                <div className={menuCls.join(' ')}>
-                    <div>
-                        <a >Курс №1</a>
-                        <a >Курс №2</a>
-                        <a >Курс №3</a>
-                        <a >Наши Курсы</a>
-                        <a >Контакты и адресс</a>
+            <div className="desktop-container">
+                <img src={logoPng} alt="" className="logo" />
+                <div className="burger-menu">
+                    <div className={menuCls.join(' ')}>
+                        <div>
+                            <a >Курс №1</a>
+                            <a >Курс №2</a>
+                            <a >Курс №3</a>
+                            <a >Наши Курсы</a>
+                            <a >Контакты и адресс</a>
+                        </div>
                     </div>
+                    <button onClick={()=>clickHandler()} class={cls.join(' ')} type="button">
+                        <span  class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
                 </div>
-                <button onClick={()=>clickHandler()} class={cls.join(' ')} type="button">
-                    <span  class="hamburger-box">
-                        <span class="hamburger-inner"></span>
-                    </span>
-                </button>
             </div>
         </nav>
     )

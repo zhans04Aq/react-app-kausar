@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-duplicate-props */
 import React from "react";
 
 import './benefits.scss'
@@ -15,13 +16,8 @@ export default function Benefits(){
                     <div className="scroller-wrapper wow">
                         <div className="scroller-item" >богатый опыт</div>
                         <div id="long-word-item" className="scroller-item">подготовка к 1C 8.3</div>
-                        <div className="scroller-item" id="long-word-item">практическое обучение </div>
-                        <div id="long-word-item" className="scroller-item" id="long-word-item">индивидуальный подход </div>
-                        <div className="scroller-item">обучение у нас.. </div>
-                        <div className="scroller-item">богатый опыт</div>
-                        <div id="long-word-item" className="scroller-item">подготовка к 1C 8.3</div>
-                        <div className="scroller-item" id="long-word-item">практическое обучение </div>
-                        <div id="long-word-item" className="scroller-item" id="long-word-item">индивидуальный подход </div>
+                        <div className="scroller-item" >практическое обучение </div>
+                        <div id="long-word-item" className="scroller-item">индивидуальный подход </div>
                         <div className="scroller-item">обучение у нас.. </div>
                     </div>
                 </div>

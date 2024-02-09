@@ -1,14 +1,17 @@
 header{
     width: 100%;
     display: flex;
+
     .header-graph-el{
         position: absolute;
         width: 100%;
         left: 0;
         background-color: black;
+        z-index: 998;
     }
 
     .header-content{
+        z-index: 999;
         margin-top: 20%;
         position: absolute;
         left: 0;

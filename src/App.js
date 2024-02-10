@@ -8,6 +8,7 @@ import Statistics from './components/statistics/Statistics';
 import About from './components/about us/About';
 import Find from './components/find us/Find';
 import Teachers from './components/OurTeachers/Teachers';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <About/>
           <Find/> 
           <Teachers/>
+          <Footer/>
       </div>
     </div>
   );

@@ -1,0 +1,82 @@
+.about{
+    width: 100%;
+    height: auto;
+    margin-top: 40%;
+    .about-mobile-container{
+        display: none;
+    }
+
+    .about-desktop-container{
+        width: 100%;
+        height: auto;
+        position: relative;
+        .title{
+            text-align: center;
+            font-family: var(--third-family);
+            font-weight: 500;
+            font-size: 3.75rem;
+            letter-spacing: 0.1em;
+            background: linear-gradient(158deg, #78c6ff 0%, #0057ff 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+        }
+
+        .content{
+            width: 100%;
+            display: flex;
+            position: relative;
+            height: auto;
+            .left-content{
+                width: 65%;
+                height: auto;
+                margin-top: 15%;
+                text-align: start;
+                color: white;
+                .icons{
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-around;
+                }
+    
+                .big-text{
+                    font-weight: 500;
+                    font-size: 35px;
+                    color: #4D4E50;
+                    margin-bottom: 15%;
+                }
+    
+                p{
+                    font-weight: 500;
+                    font-size: 1.25rem;
+                    margin-bottom: 15%;
+                }
+    
+                .goal{
+                    width: 100%;
+                    height: auto;
+                    img{
+                        width: 5%;
+                    }
+                    h3{
+                        font-weight: 900;
+                        font-size: 1.25rem;
+                    }
+                    p{
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                    }
+                }
+            }
+
+            .devices{
+                width: 45%;
+                position: absolute;
+                right: 0;
+                top: 15%;
+            }
+        }
+
+    }
+}

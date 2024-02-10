@@ -2,7 +2,7 @@
 import React, {useState} from "react";
 
 import './navbar.scss'
-import '../../assets/hamburgers/dist/hamburgers.css'
+// import '../../assets/hamburgers/dist/hamburgers.css'
 
 // img import 
 import logoPng from '../../assets/icons/logo-kausar.png'

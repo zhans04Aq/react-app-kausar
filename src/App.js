@@ -6,6 +6,7 @@ import Header from './components/header/Header';
 import Benefits from './components/benefits/Benefits';
 import Statistics from './components/statistics/Statistics';
 import About from './components/about us/About';
+import Find from './components/find us/Find';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
           <Benefits/>
           <Statistics/>
           <About/>
+          <Find/> 
       </div>
     </div>
   );

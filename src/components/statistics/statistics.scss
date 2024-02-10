@@ -43,14 +43,11 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-
+                position: relative;
                 .pulse{
                     height: auto;
-                    width: 20%;
-                    border: 1px solid white;
-                    border-radius: 50%;
-                    padding: 15%;
-                    background: linear-gradient(132deg, #4200ff 0%, #0085ff 100%);
+                    width: 100%;
+                    position: absolute;
                     h2{
                         color: white;
                     }

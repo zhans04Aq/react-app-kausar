@@ -8,12 +8,11 @@ import logo from '../../assets/icons/logo-about-us-icon.svg'
 import flagIcon from '../../assets/icons/flag-icon.svg'
 import targetIcon from '../../assets/icons/target-icon.svg'
 import devices from '../../assets/img/devices-img.svg'
-import lightSrc from '../../assets/img/light-src5.png'
+
 export default function About (){
     return(
         <div className="about">
             <div className="about-desktop-container">
-            {/* <img className="light-src" src={lightSrc} alt="" /> */}
                 <h1 className="title">О нас </h1>
                 <div className="content">
                     <div className="left-content">

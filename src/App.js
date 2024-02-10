@@ -7,6 +7,9 @@ import Benefits from './components/benefits/Benefits';
 import Statistics from './components/statistics/Statistics';
 import About from './components/about us/About';
 import Find from './components/find us/Find';
+import Teachers from './components/OurTeachers/Teachers';
+
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +20,7 @@ function App() {
           <Statistics/>
           <About/>
           <Find/> 
+          <Teachers/>
       </div>
     </div>
   );

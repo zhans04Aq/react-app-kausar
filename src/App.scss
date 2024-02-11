@@ -1,4 +1,10 @@
-
+@mixin displayFlex($direction,$align,$justify, $gap) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direction;
+  gap: $gap;
+}
 
 
 .App {
@@ -10,8 +16,7 @@
 
   .container{
     max-width: 1330px;
-    height: auto;
-    padding: 2% 4%;
+    padding: 0 1rem;
     margin: 0 auto;
   }
 }

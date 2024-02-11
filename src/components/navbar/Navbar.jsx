@@ -6,47 +6,63 @@ import './navbar.scss'
 
 // img import 
 import logoPng from '../../assets/icons/logo-kausar.png'
+import instaIcon from '../../assets/icons/instagram-icon.png'
+import whatsappIcon from '../../assets/icons/whatsapp-icon.png'
 // img import 
 
 
-const Navbar = ({isActive}) =>{
-    const [clicked, setClicked] = useState(isActive)
+const Navbar = () =>{
+    const [clicked, setClicked] = useState(false)
 
-    const cls = ['hamburger hamburger--3dxy']
-    const menuCls = ['menu']
 
     const clickHandler=()=>{
-        setClicked(!clicked)
+        setClicked(prev=> !prev)
     }
-
-    if(clicked){
-        cls.push('is-active')
-        menuCls.push('active')
-    }
-
 
 
     return(
         <nav>
+          <div className="container">
             <div className="desktop-container">
-                <img src={logoPng} alt="" className="logo" />
-                <div className="burger-menu">
-                    <div className={menuCls.join(' ')}>
-                        <div>
-                            <a >Курс №1</a>
-                            <a >Курс №2</a>
-                            <a >Курс №3</a>
-                            <a >Наши Курсы</a>
-                            <a >Контакты и адресс</a>
-                        </div>
-                    </div>
-                    <button onClick={()=>clickHandler()} class={cls.join(' ')} type="button">
-                        <span  class="hamburger-box">
-                            <span class="hamburger-inner"></span>
-                        </span>
-                    </button>
-                </div>
+              <img src={logoPng} alt="" className="logo" />
+              
+              <div className="action">
+                <ul className="soc-media">
+                  <li>
+                    <img src={whatsappIcon} alt="" />
+                  </li>
+                  <li>
+                    <img src={instaIcon} alt="" />
+                  </li>
+                </ul>
+
+                <button onClick={clickHandler} className="burger">
+                  <span className={clicked ? "first-active" : ""}></span>
+                  <span className={clicked ? "middle-active" : ""}></span>
+                  <span className={clicked ? "last-active" : ""}></span>
+                </button>
+              </div>
             </div>
+          </div>
+          
+
+            <ul className={`nav-bar ${clicked ? "active" : ""}`}>
+              <li>
+                Курс №1
+              </li>
+              <li>
+                Курс №2
+              </li>
+              <li>
+                Курс №3
+              </li>
+              <li>
+                О нас
+              </li>
+              <li>
+                Контакты и адрес
+              </li>
+            </ul>
         </nav>
     )
 }

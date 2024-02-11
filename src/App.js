@@ -8,13 +8,14 @@ import Statistics from './components/statistics/Statistics';
 import About from './components/about us/About';
 import Find from './components/find us/Find';
 import Teachers from './components/OurTeachers/Teachers';
+import Consultation from './components/consultation/Consultation';
 import Footer from './components/footer/Footer';
 
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="">
           <Navbar/>
           <Header/>
           <Benefits/>
@@ -22,6 +23,7 @@ function App() {
           <About/>
           <Find/> 
           <Teachers/>
+          <Consultation/>
           <Footer/>
       </div>
     </div>

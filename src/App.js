@@ -9,6 +9,7 @@ import Benefits from './components/benefits/Benefits';
 import Statistics from './components/statistics/Statistics';
 import About from './components/about us/About';
 import Courses from './components/courses/Courses';
+import Pros from './components/pros/Pros';
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,8 @@ function App() {
       <div className="container">
           <Statistics/>
           <Courses/>
+          <Pros/>
+
       </div>
     </div>
   );

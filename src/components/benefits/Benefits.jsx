@@ -13,23 +13,34 @@ import noise from '../../assets/img/noice-fx-benefits.png'
 export default function Benefits(){
     return(
         <div className="benefits">
+          
             <div className="desktop-container">
               <img src={lightSrc1} alt="" className="light-src" id="light-1" />
               <img src={lightSrc2} alt="" className="light-src" id="light-2" />
               <img src={lightSrc3} alt="" className="light-src" id="light-3" />
               <img src={lightSrc4} alt="" className="light-src" id="light-4" />
               <img src={noise} alt="" className="noise-fx" />
-                <div className="component-title">
-                    <h1>В чем наши преимущества?</h1>
-                    <div className="scroller wow">
-                        <div className="scroller-wrapper wow">
-                            <div className="scroller-item" >богатый опыт</div>
-                            <div id="long-word-item" className="scroller-item">подготовка к 1C 8.3</div>
-                            <div className="scroller-item" >практическое обучение </div>
-                            <div id="long-word-item" className="scroller-item">индивидуальный подход </div>
-                            <div className="scroller-item">обучение у нас.. </div>
-                        </div>
-                    </div>
+
+                <div className="benefits-head">
+                  <h1 className="title-primary">
+                    В чем наша преимущества?
+                  </h1>
+                  <marquee behavior="infinite" direction="left">
+                    <ul>
+                      <li>богатый опыт</li>
+                      <li>подготовка к 1C 8.3</li>
+                      <li>практическое обучение</li>
+                      <li>индивидуальный подход</li>
+                      <li>обучение у нас..</li>
+                      <li>поддержка после обучения</li>
+                      <li>богатый опыт</li>
+                      <li>подготовка к 1C 8.3</li>
+                      <li>практическое обучение</li>
+                      <li>индивидуальный подход</li>
+                      <li>обучение у нас..</li>
+                      <li>поддержка после обучения</li>
+                    </ul>
+                  </marquee>
                 </div>
                 <div className="benefits-cards">
                     <img className='circle-element' src={circleElement} alt="" id="circle-1" />

@@ -8,7 +8,7 @@ import logo from "../../assets/icons/logo-kausar.png"
 export default function Footer() {
   return (
     <footer>
-      <div className='desktop-container'>
+      <div className='container'>
         <div className='footer-top'>
           <img src={visaLogo}/>
           <img src={masterCardLogo}/>

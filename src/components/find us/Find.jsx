@@ -9,7 +9,7 @@ import emailIcon from "../../assets/icons/email-icon.svg"
 export default function Find() {
   return (
     <div className='find'>
-      <div className='desktop-container'>
+      <div className='container'>
         <h1 className='title'>Где вы можете найти нас</h1>
         <div className='content'>
           <div className='content-info'>

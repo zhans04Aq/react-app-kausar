@@ -12,6 +12,7 @@ import CareerIcons from '../../assets/icons/pros-icons/Career.svg'
 export const Pros = () => {
     return(
         <div className="pros">
+            <div className="container">
             <div className="pros-desktop-container">
                 <div className="title">
                     <h1>Почему стоит выбрать нас?</h1>
@@ -65,6 +66,7 @@ export const Pros = () => {
                 </div>
             </div>
             <div className="pros-mobile-container"></div>
+            </div>
         </div>
     )
 }

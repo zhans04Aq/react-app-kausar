@@ -12,6 +12,7 @@ import devices from '../../assets/img/devices-img.svg'
 export default function About (){
     return(
         <div className="about">
+            <div className="container">
             <div className="about-desktop-container">
                 <h1 className="title">О нас </h1>
                 <div className="content">
@@ -51,6 +52,7 @@ export default function About (){
                 
             </div>
             <div className="about-mobile-container"></div>
+            </div>
         </div>
     )
 }

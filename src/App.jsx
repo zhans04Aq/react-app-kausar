@@ -28,20 +28,11 @@ function App() {
       <Navbar/>
       <Header/>
       <Benefits/>
-
-      
-      <About/>  
-    
       <Statistics/>
-
       <About/>
       <Find/> 
-
       <Courses/>
       <Pros/>
-
-
-
       <Teachers/>
       <Consultation/>
       <Footer/>

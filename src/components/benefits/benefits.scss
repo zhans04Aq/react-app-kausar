@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap');
 
 .benefits{
-    margin-top: 130%;
-    width: 100%;
-    height: auto;
+    
     .desktop-container{
-        width: 100%;
-        height: auto;
-
         .noise-fx{
             position: absolute;
-            width: 100%;
             z-index: 3;
             left: 0;
         }
@@ -79,6 +73,7 @@
             box-sizing: border-box;
             gap: 14%;
             position: relative;
+            z-index: 10;
             .card{
                 width: 43%;
                 height: auto;

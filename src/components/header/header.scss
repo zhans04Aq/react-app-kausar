@@ -1,20 +1,22 @@
 header{
-    width: 100%;
     display: flex;
+    width: 100%;
+    padding: 50rem 0;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-    .header-graph-el{
-        position: absolute;
-        width: 100%;
-        left: 0;
-        background-color: black;
-    }
+    .graph {
+      padding: 20rem 0;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
 
-    .header-content{
-        margin-top: 20%;
-        position: absolute;
-        left: 0;
+      .header-content{
         width: 65%;
-        height: auto;
         backdrop-filter: blur(40px);
         background: rgba(255, 255, 255, 0.04);
         border: 1px solid rgba(255, 255, 255, 0.28);
@@ -75,6 +77,10 @@ header{
                 background:#030303, radial-gradient(23.21% 114.66% at 43.75% -31.25%, rgb(24, 17, 24) 21.246936917304993%, rgb(0, 0, 0) 100%), radial-gradient(51.42% 94.92% at 19.32% 40.62%, rgb(24, 100, 183) 0%, rgb(23, 61, 102) 100%), radial-gradient(132.71% 129.73% at 63.64% -12.5%, rgb(133, 40, 251) 0%, rgb(86, 84, 74) 100%), radial-gradient(189.21% 70.1% at 15.34% 39.06%, rgb(131, 113, 243) 0%, rgb(69, 156, 236) 100%);
                 box-shadow: 10px 20px 80px 0 rgba(122, 33, 237, 0.3), -20px -20px 50px 0 rgba(42, 94, 142, 0.5), 0 20px 30px 0 rgba(64, 100, 228, 0.3), inset 0 0 30px 0 rgba(255, 255, 255, 0.3);
             }
+        }
+      }
     }
-    }
+    
+
+    
 }

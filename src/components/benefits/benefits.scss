@@ -2,7 +2,8 @@
 @import "../../App.scss";
 
 .benefits{
-    
+  position: relative;
+  overflow: hidden;
     .desktop-container{
         .noise-fx{
             position: absolute;

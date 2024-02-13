@@ -23,14 +23,6 @@ export default function Benefits(){
                 <div className="component-title">
                     <h1>В чем наши преимущества?</h1>
                     <div className="scroller wow">
-                        <div className="scroller-wrapper wow">
-                            <div className="scroller-item" >богатый опыт</div>
-                            <div id="long-word-item" className="scroller-item">подготовка к 1C 8.3</div>
-                            <div className="scroller-item" >практическое обучение </div>
-                            <div id="long-word-item" className="scroller-item">индивидуальный подход </div>
-                            <div className="scroller-item">обучение у нас.. </div>
-                        </div>
-                    </div>
 =======
               <img src={noise} alt="" className="noise-fx" />
 
@@ -40,6 +32,18 @@ export default function Benefits(){
                   </h1>
                   <marquee behavior="infinite" direction="left">
                     <ul>
+                      <li>богатый опыт</li>
+                      <li>подготовка к 1C 8.3</li>
+                      <li>практическое обучение</li>
+                      <li>индивидуальный подход</li>
+                      <li>обучение у нас..</li>
+                      <li>поддержка после обучения</li>
+                      <li>богатый опыт</li>
+                      <li>подготовка к 1C 8.3</li>
+                      <li>практическое обучение</li>
+                      <li>индивидуальный подход</li>
+                      <li>обучение у нас..</li>
+                      <li>поддержка после обучения</li>
                       <li>богатый опыт</li>
                       <li>подготовка к 1C 8.3</li>
                       <li>практическое обучение</li>
@@ -121,7 +125,7 @@ export default function Benefits(){
 
             </div>
         </div>
-
-     </div>
+        </div>
+        </div>
     )
 }

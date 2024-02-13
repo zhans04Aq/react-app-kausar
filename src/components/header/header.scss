@@ -29,19 +29,18 @@ header{
         box-sizing: border-box;
         color: white;
         h1{
-            font-weight: 500;
-            font-size: 35px;
+            font-weight: 800;
+            font-size: clamp(9px, 5vw, 35px);
             letter-spacing: 0.04em;
-            background: linear-gradient(158deg, #78c6ff 0%, #2276ff 71.57%, #0057ff 100%);
+            background-color: white;
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color:transparent;
             margin-bottom: 7%;
         }
         p{
-            font-family: var(--second-family);
-            font-weight: 800;
-            font-size: 30px;
+            font-weight: 500;
+            font-size: clamp(15px, 3vw, 30px);
             color: #fff;
             span{
                 background: linear-gradient(235deg, #06f 50%, #fff 100%);

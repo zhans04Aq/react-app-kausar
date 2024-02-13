@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .pros{
     width: 100%;
     height: auto;
@@ -10,15 +12,8 @@
             height: auto;
             text-align: center;
             margin-bottom: 15rem;
-            h1{
-                font-family: var(--font3);
-                font-weight: 500;
-                font-size: clamp(20px, 5vw, 60px);
-                letter-spacing: 0.1em;
-                background: linear-gradient(158deg, #78c6ff 0%, #0057ff 100%);
-                background-clip: text;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+            .title-primary {
+              text-align: center;
             }
 
             p{
@@ -35,26 +30,19 @@
         }
 
         .pros-content{
-            width: 100%;
-            height: auto;
             margin-top: 10%;
             .row-content{
-                width: 100%;
-                height: auto;
-                display: flex;
-                gap: 7%;
- 
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                place-items: center;
+                gap: 2rem;
                 .card{
-                    width: 33%;
-                    height: auto;
+                    width: 20rem;
                     border: 1px solid #141920;
                     border-radius: 1.88rem;
                     background: #06090e;
                     padding: 7% 5%;
-                    box-sizing: border-box;
-                    display: flex;
-                    flex-direction: column;
-                    align-items:    flex-start;
+                    @include displayFlex(column, flex-start,default, 1rem);
                     h1{
                         font-weight: 700;
                         font-size: 1.44rem;
@@ -79,4 +67,13 @@
             }
         }
     }
+}
+
+@media (max-width: 1024px) {
+  .row-content {
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+
+    
+  }
 }

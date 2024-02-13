@@ -15,7 +15,7 @@ export const Pros = () => {
             <div className="container">
             <div className="pros-desktop-container">
                 <div className="title">
-                    <h1>Почему стоит выбрать нас?</h1>
+                    <h1 className='title-primary'>Почему стоит выбрать нас?</h1>
                     <p>99% наших учеников показали результаты и<br />трудоустроились <span>в течении месяца.</span></p>
                 </div>
                 <div className="pros-content">
@@ -40,8 +40,6 @@ export const Pros = () => {
                             требований МСФО <br /> (IFRS) для МСБ и 1С <br />Бухгалтерия 8.3.
                             </p>
                         </div>
-                    </div>
-                    <div className="row-content">
                         <div className="card">
                             <img src={InformationIcon} alt="" className="icon" />
                             <h1>Необходимая информация</h1>

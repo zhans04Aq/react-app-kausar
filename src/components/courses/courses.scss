@@ -1,37 +1,25 @@
+@import "../../App.scss";
+
 .courses{
-    width: 100%;
-    height: auto;
     margin-top: 20%;
     .desktop-container{
         width: 100%;
         height: auto;
-        h1{
-            font-weight: 500;
-            font-size: 3.75rem;
-            letter-spacing: 0.1em;
-            background: linear-gradient(158deg, #78c6ff 0%, #0057ff 100%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-align: center;
+
+        .title-primary {
+          text-align: center;
         }
 
         .card-container{
             margin-top: 15%;
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 5%;
+            display: grid;
+            place-items: center;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
             .card{
-                width: 45%;
-                height: auto;
-                position: relative;
-                display: flex;
-                flex-direction: column;
+                width: 30rem;
                 color: white;
                 padding: 5%;
-                box-sizing: border-box;
                 margin: 5% 0;
                 background-size: 100% 100%;
                 background-repeat: no-repeat;
@@ -137,4 +125,14 @@
 
 
     }
+}
+
+
+@media (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    .card {
+      width: 20rem !important;
+    }
+  }
 }

@@ -6,7 +6,7 @@ export default function Courses(){
     return(
         <div className="courses">
             <div className="desktop-container">
-                <h1>Выбери свои курсы</h1>
+                <h1 className="title-primary">Выбери свои курсы</h1>
                 <div className="card-container">
                     <div className="card" id="card-1">
                         <div className="card-content">

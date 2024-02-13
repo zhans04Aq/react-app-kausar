@@ -26,8 +26,8 @@ export default function Courses(){
                                 </div>
                             </div>
                             <div className="lower-content">
-                                <button>подробнее</button>
-                                <button>-></button>
+                                <button><a href="https://wa.me/77758281024">купить</a></button>
+                                <button><a href="https://wa.me/77758281024">-></a></button>
                             </div>
                         </div>
                     </div>
@@ -48,8 +48,8 @@ export default function Courses(){
                             </div>
                         </div>
                         <div className="lower-content">
-                            <button>подробнее</button>
-                            <button>-></button>
+                            <button><a href="https://wa.me/77758281024">купить</a></button>
+                            <button><a href="https://wa.me/77758281024">-></a></button>
                         </div>
                         </div>
                     </div>
@@ -70,8 +70,8 @@ export default function Courses(){
                             </div>
                         </div>
                         <div className="lower-content">
-                            <button>подробнее</button>
-                            <button>-></button>
+                            <button><a href="https://wa.me/77758281024">купить</a></button>
+                            <button><a href="https://wa.me/77758281024">-></a></button>
                         </div>
                         </div>
                     </div>
@@ -92,8 +92,8 @@ export default function Courses(){
                             </div>
                         </div>
                         <div className="lower-content">
-                            <button>подробнее</button>
-                            <button>-></button>
+                            <button><a href="https://wa.me/77758281024">купить</a></button>
+                            <button><a href="https://wa.me/77758281024">-></a></button>
                         </div>
                         </div>
                     </div>
@@ -114,8 +114,8 @@ export default function Courses(){
                             </div>
                         </div>
                         <div className="lower-content">
-                            <button>подробнее</button>
-                            <button>-></button>
+                            <button><a href="https://wa.me/77758281024">купить</a></button>
+                            <button><a href="https://wa.me/77758281024">-></a></button>
                         </div>
                         </div>
                     </div>
@@ -136,8 +136,8 @@ export default function Courses(){
                             </div>
                         </div>
                         <div className="lower-content">
-                            <button>подробнее</button>
-                            <button>-></button>
+                            <button><a href="https://wa.me/77758281024">купить</a></button>
+                            <button><a href="https://wa.me/77758281024">-></a></button>
                         </div>
                         </div>
                     </div>

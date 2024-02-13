@@ -95,14 +95,18 @@
                         display: flex;
                         margin: 15% 0 0 0;
                         button{
-                            cursor: pointer;
+                            z-index: 2;
                             padding: 4% 4%;
-                            color: white;
                             background-color: #000;
                             border: none;
                             border-radius: 12px;
-                            font-weight: 500;
-                            font-size: 1.25rem;
+                            a{
+                                cursor: pointer;
+                                text-decoration: none;
+                                color: white;
+                                font-weight: 500;
+                                font-size: 1.25rem;
+                            }
                         }
                     }
                 }

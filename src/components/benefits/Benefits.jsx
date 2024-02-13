@@ -19,7 +19,6 @@ export default function Benefits(){
               <img src={lightSrc2} alt="" className="light-src" id="light-2" />
               <img src={lightSrc3} alt="" className="light-src" id="light-3" />
               <img src={lightSrc4} alt="" className="light-src" id="light-4" />
-<<<<<<< HEAD
               {/* <img src={noise} alt="" className="noise-fx" /> */}
                 <div className="component-title">
                     <h1>В чем наши преимущества?</h1>
@@ -55,7 +54,6 @@ export default function Benefits(){
                       <li>поддержка после обучения</li>
                     </ul>
                   </marquee>
->>>>>>> 0157ef8a1dcf43d8c892ee1ecb411b64555338b9
                 </div>
                 <div className="benefits-cards">
                     <img className='circle-element' src={circleElement} alt="" id="circle-1" />
@@ -123,5 +121,7 @@ export default function Benefits(){
 
             </div>
         </div>
+
+     </div>
     )
 }

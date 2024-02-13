@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import './find.scss'
 import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';

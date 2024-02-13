@@ -18,7 +18,7 @@ export default function Benefits(){
               <img src={lightSrc2} alt="" className="light-src" id="light-2" />
               <img src={lightSrc3} alt="" className="light-src" id="light-3" />
               <img src={lightSrc4} alt="" className="light-src" id="light-4" />
-              <img src={noise} alt="" className="noise-fx" />
+              {/* <img src={noise} alt="" className="noise-fx" /> */}
                 <div className="component-title">
                     <h1>В чем наши преимущества?</h1>
                     <div className="scroller wow">

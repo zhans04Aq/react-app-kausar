@@ -13,7 +13,7 @@ import Find from './components/find us/Find';
 
 import Courses from './components/courses/Courses';
 import Pros from './components/pros/Pros';
-
+import FreeVideoCourses from './components/trialVideoCourses/TrialVideoCourses';
 import Teachers from './components/OurTeachers/Teachers';
 import Consultation from './components/consultation/Consultation';
 import Footer from './components/footer/Footer';
@@ -33,6 +33,7 @@ function App() {
       <Courses/>
       <Find/> 
       <Pros/>
+      <FreeVideoCourses/>
       <Teachers/>
       <Consultation/>
       <Footer/>

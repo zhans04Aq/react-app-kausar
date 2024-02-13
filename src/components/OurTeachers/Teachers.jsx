@@ -1,7 +1,6 @@
 import React from 'react'
 import "./teachers.scss"
 
-import teacherIcon from "../../assets/icons/teachersPreIcon.png"
 import BaygzinovnaImg from "../../assets/img/BaygazinovaImg.png"
 import TurispaevImg from "../../assets/img/TurispaevImg.png"
 import TurymbetImg from "../../assets/img/TurymbetImg.png"

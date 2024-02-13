@@ -13,11 +13,13 @@ import noise from '../../assets/img/noice-fx-benefits.png'
 export default function Benefits(){
     return(
         <div className="benefits">
+          
             <div className="desktop-container">
               <img src={lightSrc1} alt="" className="light-src" id="light-1" />
               <img src={lightSrc2} alt="" className="light-src" id="light-2" />
               <img src={lightSrc3} alt="" className="light-src" id="light-3" />
               <img src={lightSrc4} alt="" className="light-src" id="light-4" />
+<<<<<<< HEAD
               {/* <img src={noise} alt="" className="noise-fx" /> */}
                 <div className="component-title">
                     <h1>В чем наши преимущества?</h1>
@@ -30,6 +32,30 @@ export default function Benefits(){
                             <div className="scroller-item">обучение у нас.. </div>
                         </div>
                     </div>
+=======
+              <img src={noise} alt="" className="noise-fx" />
+
+                <div className="benefits-head">
+                  <h1 className="title-primary">
+                    В чем наша преимущества?
+                  </h1>
+                  <marquee behavior="infinite" direction="left">
+                    <ul>
+                      <li>богатый опыт</li>
+                      <li>подготовка к 1C 8.3</li>
+                      <li>практическое обучение</li>
+                      <li>индивидуальный подход</li>
+                      <li>обучение у нас..</li>
+                      <li>поддержка после обучения</li>
+                      <li>богатый опыт</li>
+                      <li>подготовка к 1C 8.3</li>
+                      <li>практическое обучение</li>
+                      <li>индивидуальный подход</li>
+                      <li>обучение у нас..</li>
+                      <li>поддержка после обучения</li>
+                    </ul>
+                  </marquee>
+>>>>>>> 0157ef8a1dcf43d8c892ee1ecb411b64555338b9
                 </div>
                 <div className="benefits-cards">
                     <img className='circle-element' src={circleElement} alt="" id="circle-1" />

@@ -9,28 +9,40 @@ import circleStatisticsPulse from '../../assets/img/circle-statistics.svg'
 export default function Statistics (){
     return(
         <div className="statistics">
+
+
             <div className="dekstop-statistics">
-                <h1>Мы в цифрах</h1>
-                <img src={graphEl} alt="" className="graph-element" />
-                <div className="statistics-content">
-                    <div className="content-item">
-                        <img src={circleStatisticsPulse} alt="" />
-                        <h3>1200</h3>
-                        <p>человек стали <br /> бухгалтерами и повысили <br />квалификацию</p>
-                    </div>
-                    <div className="content-item">
-                        <img src={circleStatisticsPulse} alt="" />
-                        <h3>8</h3>
-                        <p>лет работы <br /> на рынке</p>
-                    </div>
-                    <div className="content-item">
-                        <img src={circleStatisticsPulse} alt="" />
-                        <h3>99%</h3>
-                        <p>трудоустроились в <br /> течении месяца</p>
-                    </div>
+
+                <h1 className="title-primary">Мы в цифрах</h1>
+                
+                <div className="statistics-content" style={{backgroundImage: `url(${graphEl})`}}>
+                  <div className="container">
+                    <ul className="stat-list">
+                      <li>
+                        <div className="circle">
+                          1200
+                        </div>
+                        <p>человек стали бухгалтерами и повысили квалификацию</p>
+                      </li>
+                      <li>
+                        <div className="circle">
+                          8
+                        </div>
+                        <p>лет работы на рынке</p>
+                      </li>
+                      <li>
+                        <div className="circle">
+                          99%
+                        </div>
+                        <p>трудоустроились в течении месяца</p>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
             </div>
-            <div className="mobile-statistics"></div>
+            
+            
+          
         </div>
     )
 }

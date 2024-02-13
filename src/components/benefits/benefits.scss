@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap');
+@import "../../App.scss";
 
 .benefits{
+<<<<<<< HEAD
 
+=======
+  position: relative;
+  overflow: hidden;
+>>>>>>> 0157ef8a1dcf43d8c892ee1ecb411b64555338b9
     .desktop-container{
         .noise-fx{
             position: absolute;
@@ -9,37 +15,48 @@
             left: 0;
                 overflow: hidden;
         }
-        .component-title{
-            width: 100%;
-            height: auto;
-            font-size: 40px;
+        
+        .benefits-head {
+          position: relative;
+          .title-primary {
             text-align: center;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            background: linear-gradient(158deg, #78c6ff 0%, #0057ff 100%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .scroller{
-            width: 100%;
-            overflow: hidden;
+            margin-bottom: 2rem;
+          }
+          marquee {
+            display: block;
+            max-width: 65rem;
+            margin: 0 auto;
+            color: white;
             position: relative;
-            
-            .scroller-wrapper{
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                gap: 5%;
-                .scroller-item{
-                    white-space: nowrap;
-                    flex-shrink: 0;
-                    -webkit-text-fill-color: white;
-                    font-size: 15px;
-                    letter-spacing: 0px;
-                    animation: scroller-anim 3s linear infinite;
-                }
+            &::before {
+              content: "";
+              z-index: 5;
+              top: 0;
+              left: -1px;
+              position: absolute;
+              width: 5rem;
+              height: 2rem;
+              background: rgba(0, 0, 0, 0.985);
+              box-shadow: 50px 0px 90px 70px rgb(0, 0, 0);
             }
+            &::after {
+              content: "";
+              z-index: 5;
+              top: 0;
+              right: -1px;
+              position: absolute;
+              width: 5rem;
+              height: 2rem;
+              background: rgba(0, 0, 0, 0.985);
+              box-shadow: -50px 0px 90px 70px rgb(0, 0, 0);
+            }
+            ul {
+              @include displayFlex(row,center,space-between,4rem);
+              li {
+                font-size: 0.9rem;
+              }
+            }
+          }
         }
 
         .light-src{

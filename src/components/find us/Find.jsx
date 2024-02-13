@@ -6,10 +6,12 @@ import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
 import locationIcon from "../../assets/icons/location-icon.svg"
 import phoneIcon from "../../assets/icons/phone-icon.svg"
 import emailIcon from "../../assets/icons/email-icon.svg"
+import findGradientBg from "../../assets/img/find-bg-gradient.png"
 
 export default function Find() {
   return (
     <div className='find'>
+      <img className='gradient-bg' src={findGradientBg} alt="" />
       <div className='container'>
         <h1 className='title'>Где вы можете найти нас</h1>
         <div className='content'>

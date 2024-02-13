@@ -29,8 +29,8 @@ function App() {
       <Benefits/>
       <Statistics/>
       <About/>
-      <Find/> 
       <Courses/>
+      <Find/> 
       <Pros/>
       <Teachers/>
       <Consultation/>

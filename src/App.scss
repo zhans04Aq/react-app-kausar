@@ -6,6 +6,7 @@
   gap: $gap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
 
 
 .App {
@@ -14,7 +15,7 @@
   height: auto;
   margin: 0;
   padding: 0;
-
+  font-family: "Golos Text", sans-serif;
   .container{
     max-width: 1330px;
     padding: 0 1rem;
@@ -27,4 +28,3 @@
     margin-top: 60%;
   }
 }
-

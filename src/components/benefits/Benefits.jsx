@@ -19,6 +19,11 @@ export default function Benefits(){
               <img src={lightSrc2} alt="" className="light-src" id="light-2" />
               <img src={lightSrc3} alt="" className="light-src" id="light-3" />
               <img src={lightSrc4} alt="" className="light-src" id="light-4" />
+              {/* <img src={noise} alt="" className="noise-fx" /> */}
+                <div className="component-title">
+                    <h1>В чем наши преимущества?</h1>
+                    <div className="scroller wow">
+=======
               <img src={noise} alt="" className="noise-fx" />
 
                 <div className="benefits-head">
@@ -27,6 +32,18 @@ export default function Benefits(){
                   </h1>
                   <marquee behavior="infinite" direction="left">
                     <ul>
+                      <li>богатый опыт</li>
+                      <li>подготовка к 1C 8.3</li>
+                      <li>практическое обучение</li>
+                      <li>индивидуальный подход</li>
+                      <li>обучение у нас..</li>
+                      <li>поддержка после обучения</li>
+                      <li>богатый опыт</li>
+                      <li>подготовка к 1C 8.3</li>
+                      <li>практическое обучение</li>
+                      <li>индивидуальный подход</li>
+                      <li>обучение у нас..</li>
+                      <li>поддержка после обучения</li>
                       <li>богатый опыт</li>
                       <li>подготовка к 1C 8.3</li>
                       <li>практическое обучение</li>
@@ -107,6 +124,8 @@ export default function Benefits(){
             <div className="mobile-container">
 
             </div>
+        </div>
+        </div>
         </div>
     )
 }

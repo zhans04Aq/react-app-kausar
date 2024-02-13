@@ -2,13 +2,15 @@
 @import "../../App.scss";
 
 .benefits{
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    font-family: "JetBrains Mono", monospace;
     .desktop-container{
         .noise-fx{
             position: absolute;
             z-index: 3;
             left: 0;
+                overflow: hidden;
         }
         
         .benefits-head {
@@ -88,7 +90,7 @@
             position: relative;
             z-index: 10;
             .card{
-                width: 43%;
+                width: 33%;
                 height: auto;
                 border: 1px solid rgba(255, 255, 255, 0.43);
                 border-radius: 38px;
@@ -97,13 +99,13 @@
                 padding: 6%;
                 box-sizing: border-box;
                 color: white;
-                font-family: 'JetBrains Mono', monospace;
                 margin: 10% 0;
                 div{
                     width: 100%;
                     display: flex;
                     align-items: center;
                     gap: 5%;
+                    // margin-bottom: 15%;
                         h1{
                             font-weight: 700;
                             font-size: 50px;

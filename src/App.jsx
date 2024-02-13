@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss';
 
-import lightSrc from './assets/img/light-src5.png'
 
 import Navbar from './components/navbar/Navbar'
 import Header from './components/header/Header';

@@ -72,7 +72,7 @@ export default function Find() {
           
           
           <YMaps>
-            <Map style={{width: "750px", height: "780px",position: "absolute", right: 0 }} defaultState={{ center: [43.259088, 76.936918], zoom: 15 }}>
+            <Map className='map-style' defaultState={{ center: [43.259088, 76.936918], zoom: 15 }}>
               <Placemark geometry={[43.259088, 76.936918]}/>
             </Map>
           </YMaps>

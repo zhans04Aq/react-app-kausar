@@ -30,12 +30,18 @@
 }
 
 @media (max-width: 1024px) {
+  button, input {
+    font-size: 80% !important;
+  }
   p {
     font-size: 80% !important;
   }
 }
 
 @media (max-width: 768px) {
+  button {
+    font-size: 70% !important;
+  }
   p {
     font-size: 70% !important;
   }

@@ -34,6 +34,7 @@ ul li {
   font-family: var(--font3);
   font-weight: 500;
   font-size: clamp(20px, 5vw, 60px);
+  font-size: 3.75rem;
   letter-spacing: 0.1em;
   background: linear-gradient(158deg, #78c6ff 0%, #0057ff 100%);
   background-clip: text;
@@ -43,6 +44,6 @@ ul li {
 
 @media (max-width: 1024px) {
   .title-primary {
-    font-size: 1.9rem;
+    font-size: 2.5rem !important;
   }
 }

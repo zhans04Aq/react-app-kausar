@@ -15,7 +15,8 @@
     background-repeat: no-repeat;
     background-size:cover;
     .stat-list {
-      @include displayFlex(row, baseline, space-around, 0);
+      @include displayFlex(row, baseline, space-around, 5rem);
+      flex-wrap: wrap;
       li {
         @include displayFlex(column, center, default, 5rem);
         text-align: center;

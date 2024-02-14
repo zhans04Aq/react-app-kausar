@@ -13,7 +13,7 @@ export default function Find() {
     <div className='find'>
       <img className='gradient-bg' src={findGradientBg} alt="" />
       <div className='container'>
-        <h1 className='title'>Где вы можете найти нас</h1>
+        <h1 className='title-primary'>Где вы можете найти нас</h1>
         <div className='content'>
           <div className='content-info'>
             <ul className='info-list'>

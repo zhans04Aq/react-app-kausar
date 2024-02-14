@@ -18,19 +18,9 @@ ul li {
     right: 0;
     position: absolute
   }
-
-  .title {
-    text-align: center;
-    font-family: var(--third-family);
-    font-weight: 500;
-    font-size: 3.75rem;
-    letter-spacing: 0.1em;
-    background: linear-gradient(158deg, #78c6ff 0%, #0057ff 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
+ .title-primary {
+  text-align: center;
+ }
   .content {
     margin-top: 15rem;
     display: flex;

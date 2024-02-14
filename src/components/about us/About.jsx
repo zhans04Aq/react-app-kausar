@@ -14,7 +14,7 @@ export default function About (){
         <div className="about">
             <div className="container">
             <div className="about-desktop-container">
-                <h1 className="title">О нас </h1>
+                <h1 className="title-primary">О нас </h1>
                 <div className="content">
                     <div className="left-content">
                         <div className="icons">

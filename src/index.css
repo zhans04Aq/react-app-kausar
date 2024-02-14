@@ -36,3 +36,9 @@ code {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 1024px) {
+  .title-primary {
+    font-size: 1.9rem;
+  }
+}

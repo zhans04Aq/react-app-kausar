@@ -23,7 +23,7 @@ export default function Benefits(){
                 <div className="component-title">
                     <h1>В чем наши преимущества?</h1>
                     <div className="scroller wow">
-=======
+
               <img src={noise} alt="" className="noise-fx" />
 
                 <div className="benefits-head">

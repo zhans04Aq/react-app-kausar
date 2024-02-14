@@ -24,25 +24,17 @@
                 background-size: 100% 100%;
                 background-repeat: no-repeat;
                 .card-content{
-                    width: 100%;
-                    padding: 5%;
-                    box-sizing: border-box;
+                    padding: 1rem;
                     .upper-content{
-                        width: 100%;
                         display: flex;
-                        justify-content: flex-start;
-                        align-items: flex-end;
-                        text-align: start;
-                        gap: 5%;
+                        @include displayFlex(row,flex-end,flex-start, 1rem);
+                        gap: 2rem;
                         white-space: nowrap;
                         h1{
-                            width: 40%;
                             font-weight: 500;
                             font-size: 2.5rem;
                             text-align: start;
                             -webkit-text-fill-color: white;
-                            padding: 0;
-                            margin: 0;
                         }
                         p{
                             width: 20%;
@@ -51,6 +43,11 @@
                             border-radius: 0.81rem;
                             font-weight: 500;
                             font-size: 0.62rem;
+                        }
+                        @media (max-width: 1024px) {
+                          h1 {
+                            font-size: 80% !important;
+                          }
                         }
                     }
     

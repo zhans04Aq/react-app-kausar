@@ -13,7 +13,7 @@ const Header = () =>{
               <div className="header-content">
                   <h1>Обучим професии ‘Бухгалтер’ с нуля!</h1>
                   <p>Пройдите полную подготовку в <span> Kausar <br />
-                  Business Consulting</span> и станьте специалистом <br /> Бухгалтером! </p>
+                  Business Consulting</span> и станьте <br />  специалистом Бухгалтером! </p>
                   <div className="button-container">
                       <button>Записаться</button>
                   </div>

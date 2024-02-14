@@ -26,6 +26,12 @@ ul li {
     display: flex;
     align-items: center;
     position: relative;
+    .map-style {
+      width: 750px;
+      height: 780px;
+      position: absolute;
+      right: 0; 
+    }
     .content-info {
       padding: 4rem 2rem;
       background: white;
@@ -71,5 +77,45 @@ ul li {
       
     }
     
+  }
+}
+
+
+@media (max-width: 1190px) {
+  .map-style {
+    width: 700px !important;
+  }
+}
+@media (max-width: 1090px) {
+  .map-style {
+    width: 600px !important;
+    height: 650px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+    .map-style {
+      position: static !important;
+      width: 100% !important;
+      height: 25rem !important;
+    }
+    .content-info {
+      border-radius: 1rem 1rem 0 0 !important;
+      width: 100% !important;
+      margin-bottom: 2rem;
+      .info-list {
+        align-items: center;
+        text-align: center;
+        li {
+          display: grid;
+          place-items: center;
+        }
+      }
+    }
+    .info-face {
+      text-align: center;
+    }
   }
 }

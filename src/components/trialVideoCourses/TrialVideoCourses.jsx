@@ -18,24 +18,18 @@ export default function FreeVideoCourses() {
           </div> 
           <Swiper 
           effect={"coverflow"}
-          slidesPerView={2}
+          slidesPerView={3}
           centeredSlides={true}
+          initialSlide={1}
+          loop={true}
           coverflowEffect={{
             rotate: 0,
-            stretch: 0,
-            depth: 350,
-            modifier: 1,
-          }}
-          breakpoints={{
-            768: {
-              depth: 2
-            },
-            1024: {
-              slidesPerView: 3,
-            }
+            stretch: 10,
+            depth: 100,
+            modifier: 2,
           }}
           modules={[EffectCoverflow]}
-          className='swiper'
+          className='swiper-container'
           >
             <SwiperSlide>
               <div className="video-part">1</div>

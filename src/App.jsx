@@ -29,13 +29,13 @@ function App() {
       <Benefits/>
       <Statistics/>
       <About/>
-      {/* <Courses/> */}
-      {/* <Find/>  */}
-      {/* <Pros/> */}
-      {/* <FreeVideoCourses/> */}
-      {/* <Teachers/> */}
-      {/* <Consultation/> */}
-      {/* <Footer/> */}
+      <Courses/>
+      <Find/> 
+      <Pros/>
+      <FreeVideoCourses/>
+      <Teachers/>
+      <Consultation/>
+      <Footer/>
 
       
     </div>

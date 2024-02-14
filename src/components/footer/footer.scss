@@ -4,6 +4,10 @@ footer {
     display: flex;
     align-items: center;
     gap: 5rem;
+
+    img:last-child{
+      display: none;
+    }
   }
 
   .footer-body {
@@ -23,5 +27,34 @@ footer {
       }
     }
     
+  }
+}
+
+@media (max-width:768px) {
+  footer{
+    .footer-top{
+      display: flex;
+      justify-content: center;
+      img{
+        width: 20%;
+      }
+
+      img:nth-child(2){
+        width: 10%;
+      }
+      img:last-child{
+        display: block;
+      }
+    }
+
+    .footer-body{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        display: none;
+      }
+    }
   }
 }

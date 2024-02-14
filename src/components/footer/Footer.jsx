@@ -12,6 +12,7 @@ export default function Footer() {
         <div className='footer-top'>
           <img src={visaLogo}/>
           <img src={masterCardLogo}/>
+          <img src={logo}/>
         </div>
         <div className='footer-body'>
           <div className='body-info'>

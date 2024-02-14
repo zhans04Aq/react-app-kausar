@@ -102,8 +102,8 @@ ul li {
       height: 25rem !important;
     }
     .content-info {
-      border-radius: 1rem 1rem 0 0 !important;
-      width: 100% !important;
+      border-radius: 1rem 1rem 0 0;
+      width: 100%;
       margin-bottom: 2rem;
       .info-list {
         align-items: center;
@@ -116,6 +116,17 @@ ul li {
     }
     .info-face {
       text-align: center;
+    }
+  }
+}
+
+@media (max-width:768px) {
+  .find{
+    .content{
+      .content-info{
+        width: 80%;
+        border-radius: 30px;
+      }
     }
   }
 }

@@ -32,13 +32,13 @@ export default function FreeVideoCourses() {
           className='swiper-container'
           >
             <SwiperSlide>
-              <div className="video-part">1</div>
+                <a href=""><div className="video-part">1</div></a>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="video-part">2</div>
+                <a href=""><div className="video-part">2</div></a>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="video-part">3</div>
+                <a href=""><div className="video-part">3</div></a>
             </SwiperSlide>
           </Swiper>
         </div>

@@ -9,7 +9,7 @@ export default function Teachers () {
   return (
     <div className='teachers'>
       <div className='container'>
-        {/* <h1 className='title'>Наши преподаватели</h1> */}
+        {/* <h1 className='title-primary'>Наши преподаватели</h1> */}
         <ul className='teachers-list'>
           <li className='teacher-card'>
             <img src={BaygzinovnaImg} alt='Туриспаев Ержан Молдагалиевич'/>

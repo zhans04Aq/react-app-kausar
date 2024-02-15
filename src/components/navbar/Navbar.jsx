@@ -6,9 +6,9 @@ import './navbar.scss'
 // import '../../assets/hamburgers/dist/hamburgers.css'
 
 // img import 
-import logoPng from '../../assets/icons/logo-kausar.png'
-import instaIcon from '../../assets/icons/instagram-icon.png'
-import whatsappIcon from '../../assets/icons/whatsapp-icon.png'
+import logoPng from '../../assets/icons/logo-kausar.svg'
+import instaIcon from '../../assets/icons/instagram-icon.svg'
+import whatsappIcon from '../../assets/icons/whatsapp-icon.svg'
 // img import 
 
 

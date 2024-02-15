@@ -62,6 +62,7 @@ export default function About (){
                         </Reveal>
                     </div>
                     <img className="devices" src={devices} alt="" />
+                    
                 </div>
                 
             </div>

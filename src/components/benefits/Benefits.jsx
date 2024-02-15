@@ -21,11 +21,10 @@ export default function Benefits(){
         >
           
             <div  className="desktop-container">
-              <img src={lightSrc1} alt="" className="light-src" id="light-1" />
-              <img src={lightSrc3} alt="" className="light-src" id="light-3" />
               <img src={lightSrc4} alt="" className="light-src" id="light-4" />
               {/* <img src={noise} alt="" className="noise-fx" /> */}
                 
+
 
               <img src={noise} alt="" className="noise-fx" />
 
@@ -78,26 +77,26 @@ export default function Benefits(){
                       </div>
                     </Reveal>
                     <Reveal direction={"right"}>
-                      <div className="card">
-                          <div>
-                              <h1>02</h1>
-                              <h3>практическое обучение</h3>
-                          </div>
-                          <p>
-                          Наши занятия основаны на <br /> реальных кейсах и живых <br /> примерах, что поможет вам <br /> лучше усвоить материал и <br /> научиться применять <br /> знания на практике.
-                          </p>
-                      </div>
+                    <div className="card">
+                        <div>
+                            <h1>02</h1>
+                            <h3>практическое обучение</h3>
+                        </div>
+                        <p>
+                        Наши занятия основаны на <br /> реальных кейсах и живых <br /> примерах, что поможет вам <br /> лучше усвоить материал и <br /> научиться применять <br /> знания на практике.
+                        </p>
+                    </div>
                     </Reveal>
                     <Reveal direction={"left"}>
-                      <div className="card">
-                          <div>
-                              <h1>03</h1>
-                              <h3>подготовка к 1С 8.3</h3>
-                          </div>
-                          <p>
-                          Вы будете обучаться на <br /> профессиональной <br /> программе, которая br является стандартом в <br /> области бухгалтерского <br /> учета.
-                          </p>
-                      </div>
+                    <div className="card">
+                        <div>
+                            <h1>03</h1>
+                            <h3>подготовка к 1С 8.3</h3>
+                        </div>
+                        <p>
+                        Вы будете обучаться на <br /> профессиональной <br /> программе, которая br является стандартом в <br /> области бухгалтерского <br /> учета.
+                        </p>
+                    </div>
                     </Reveal>
                     <img className='circle-element' src={circleElement} alt="" id="circle-2" />
                     <Reveal direction={"right"}>
@@ -126,15 +125,15 @@ export default function Benefits(){
                     </Reveal>
                     <img className='circle-element' src={circleElement} alt="" id="circle-4" />
                     <Reveal direction={"right"}>
-                      <div className="card">
-                          <div>
-                              <h1>06</h1>
-                              <h3>богатый опыт</h3>
-                          </div>
-                          <p>
-                          Вы будете обучаться на <br /> профессиональной <br /> программе, которая <br /> является стандартом <br /> в области бухгалтерского <br /> учета.
-                          </p>
-                      </div>
+                    <div className="card">
+                        <div>
+                            <h1>06</h1>
+                            <h3>богатый опыт</h3>
+                        </div>
+                        <p>
+                        Вы будете обучаться на <br /> профессиональной <br /> программе, которая <br /> является стандартом <br /> в области бухгалтерского <br /> учета.
+                        </p>
+                    </div>
                     </Reveal>
                 </div>
             </div>

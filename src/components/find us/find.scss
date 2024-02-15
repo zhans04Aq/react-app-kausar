@@ -95,6 +95,7 @@ ul li {
 
 @media (max-width: 1024px) {
   .content {
+    width: 100%;
     flex-direction: column;
     .map-style {
       position: static !important;

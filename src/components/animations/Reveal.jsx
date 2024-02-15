@@ -16,7 +16,7 @@ const Reveal = ({children, direction}) => {
   }, [isInView])
 
   return (
-    <div className='reveal' style={{position: "relative", overflow: "hidden"}}>
+    <div className='reveal' style={{position: "relative", overflow: "hidden", width: "100%"}}>
       <motion.div
       ref={ref}
       initial={direction}

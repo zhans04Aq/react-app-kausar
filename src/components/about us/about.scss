@@ -63,13 +63,15 @@
                 }
             }
 
-            .devices{
-              height: 70rem;
-              position: absolute;
-              right: 0;
-              top: 15%;
-              z-index: 0;
-              }
+
+              .devices{
+                position: absolute;
+                right: 0;
+                top: 15%;
+                  height: 70rem;
+                  z-index: 1;
+                }
+            
             
         }
 
@@ -129,8 +131,10 @@
 }
 
 @media (max-width: 1024px) {
-  
-  .devices {
-    height: 50rem !important;
+  .reveal {
+    .devices {
+      height: 50rem !important;
+    }
+
   }
 }

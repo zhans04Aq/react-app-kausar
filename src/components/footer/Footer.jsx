@@ -12,6 +12,7 @@ export default function Footer() {
         <div className='footer-top'>
           <img src={visaLogo}/>
           <img src={masterCardLogo}/>
+          <img className='logo' src={logo}/>
         </div>
         <div className='footer-body'>
           <div className='body-info'>
@@ -21,7 +22,7 @@ export default function Footer() {
             <p>Юридический адресс: г. Алматы, Алмалинский район, ул. Гоголя, 86, офис 217</p>
             <p>09:00 - 20:00, пн - пт</p>
           </div>
-          <img src={logo}/>
+          <img className='logo-pc' src={logo}/>
         </div>
       </div>
     </footer>

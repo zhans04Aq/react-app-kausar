@@ -87,39 +87,18 @@
   .statistics{
     .statistics-content{
       .stat-list{
+        @include displayFlex(column, center, space-between, 5rem);
         li{
           &:nth-child(2) {
             .circle {
-              width: 6rem;
-              height: 6rem;
+              width: 4.5rem;
+              height: 4.5rem;
             
             }
           }
           .circle{
             width: 4.5rem;
             height: 4.5rem;
-          }
-        }
-
-      }
-    }
-  }
-}
-@media (max-width:375px) {
-  .statistics{
-    .statistics-content{
-      .stat-list{
-        li{
-          &:nth-child(2) {
-            .circle {
-              width: 4rem;
-              height: 4rem;
-            
-            }
-          }
-          .circle{
-            width: 3.5rem;
-            height: 3.5rem;
           }
         }
 

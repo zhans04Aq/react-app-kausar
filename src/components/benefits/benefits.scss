@@ -71,6 +71,12 @@
             gap: 2rem;
             position: relative;
             z-index: 10;
+
+            .card:nth-child(2){
+              p{
+                margin: 20% 0 0 0;
+              }
+            }
             .card{
                 width: 28.5rem;
                 height: auto;
@@ -82,7 +88,7 @@
                 box-sizing: border-box;
                 color: white;
                 margin: 10% 0;
-                div{
+                  div{
                     width: 100%;
                     display: flex;
                     align-items: center;
@@ -114,8 +120,8 @@
             }
 
             .card:last-child{
-              div{
-                margin: 5% 0 15%;
+              p{
+                margin: 25% 0 0 0;
               }
             }
             .circle-element{

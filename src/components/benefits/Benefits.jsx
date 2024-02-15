@@ -25,16 +25,14 @@ export default function Benefits(){
         >
           
             <div  className="desktop-container">
-              {/* <img src={noise} alt="" className="noise-fx" /> */}
                 <div className="component-title">
-                    <h1>В чем наши преимущества?</h1>
                     <div className="scroller wow">
 
               <img src={noise} alt="" className="noise-fx" />
 
                 <div className="benefits-head">
                   <h1 className="title-primary">
-                    В чем наша преимущества?
+                    В чем наши преимущества?
                   </h1>
                   <marquee behavior="infinite" direction="left">
                     <ul>
@@ -112,7 +110,6 @@ export default function Benefits(){
                         </div>
                         <p>
                         По окончании курса мы <br /> оказываем поддержку в  <br /> поиске работы, <br /> консультируем по <br /> трудоустройству и даем <br /> рекомендации для успешного начала карьеры бухгалтера.
-
                         </p>
                     </div>
                     <img className='circle-element' src={circleElement} alt="" id="circle-4" />

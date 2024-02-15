@@ -12,7 +12,7 @@ import aboutBg from "../../assets/img/aboutus-bg.png"
 
 export default function About (){
     return(
-        <div className="about" style={{backgroundImage: `url(${aboutBg})`}}>
+        <div className="about" >
             <div className="container">
             <div className="about-desktop-container">
                 <h1 className="title-primary">О нас </h1>

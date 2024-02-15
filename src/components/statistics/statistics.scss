@@ -15,7 +15,6 @@
     background-repeat: no-repeat;
     background-size:cover;
     .stat-list {
-      @include displayFlex(row, baseline, space-between, 0);
       @include displayFlex(row, baseline, space-around, 5rem);
       flex-wrap: wrap;
       li {
@@ -54,6 +53,8 @@
   .statistics{
     .statistics-content{
       .stat-list{
+        flex-direction: column !important;
+        align-items: center !important;
         li{
           white-space: wrap;
           p {

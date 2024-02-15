@@ -52,7 +52,6 @@ export default function About (){
                 </div>
                 
             </div>
-            <div className="about-mobile-container"></div>
             </div>
         </div>
     )

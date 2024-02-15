@@ -128,6 +128,16 @@
             }
             #card-6{
                 background-image: url('../../assets/img/course-backgrpunds/course-bg-6.svg');
+                padding: 20%;
+                position: relative;
+                p{
+                    color: #707070;
+                    font-size: 2vw;
+                    font-weight: 700;
+                    position: absolute;
+                    left: 15%;
+                    top: 20%;
+                }
             }
         }
 

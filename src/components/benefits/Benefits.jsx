@@ -17,18 +17,11 @@ import noise from '../../assets/img/noice-fx-benefits.png'
 export default function Benefits(){
     return(
         <div 
-          initial="hidden"
-          whileInView="visible"
-          viewport={{amount: 0.4}}
-          transition={{duration: 3}}
           className="benefits"
         >
           
             <div  className="desktop-container">
-                <div className="component-title">
-                    <div className="scroller wow">
-
-              <img src={noise} alt="" className="noise-fx" />
+              
 
                 <div className="benefits-head">
                   <h1 className="title-primary">
@@ -124,8 +117,6 @@ export default function Benefits(){
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
         </div>
     )
 }

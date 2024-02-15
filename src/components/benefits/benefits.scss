@@ -2,17 +2,12 @@
 @import "../../App.scss";
 
 .benefits{
-    position: relative;
-    overflow: hidden;
-    font-family: "JetBrains Mono", monospace;
+  padding: 20rem 0;
+  position: relative;
+  overflow: hidden;
+  font-family: "JetBrains Mono", monospace;
     .desktop-container{
-        .noise-fx{
-            position: absolute;
-            z-index: 3;
-            left: 0;
-            overflow: hidden;
-            width: 100%;
-        }
+        
         
         .benefits-head {
           position: relative;
@@ -172,6 +167,7 @@
 }
 @media (max-width: 768px) {
 .benefits{
+  padding: 1rem 0;
     .desktop-container{
       .benefits-cards{
         .card{

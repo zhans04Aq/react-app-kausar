@@ -5,7 +5,7 @@ import {motion, useInView, useAnimation} from "framer-motion"
 const RevealBottom = ({children}) => {
 
   const ref = useRef();
-  const isInView = useInView(ref, {once: true});
+  const isInView = useInView(ref);
 
   const mainControls = useAnimation();
 
@@ -32,7 +32,7 @@ const RevealBottom = ({children}) => {
         },
         
       }}
-      transition={{duration: 1}}
+      transition={{duration: 0.5}}
     >
       {children}
     </motion.div>

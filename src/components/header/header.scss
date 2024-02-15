@@ -86,10 +86,12 @@ header{
 
 @media (max-width: 768px) {
 header{
+
   .graph{
+
     .header-content {
       padding: 5% 0;
-      width: 100% !important;
+      width: 100%;
       border-radius: 0 !important;
       display: flex;
       justify-content: center ;

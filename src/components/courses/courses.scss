@@ -16,7 +16,9 @@
             place-items: center;
             grid-template-columns: 1fr 1fr;
             gap: 2rem;
-            .card{
+            
+            .reveal {
+              .card {
                 width: 30rem;
                 color: white;
                 padding: 5%;
@@ -96,6 +98,7 @@
                 }
 
 
+            }
             }
     
             #card-1{

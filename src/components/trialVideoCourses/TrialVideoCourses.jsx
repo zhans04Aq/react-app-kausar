@@ -5,6 +5,8 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import "swiper/scss"
 import 'swiper/css/effect-coverflow';
 
+import Reveal from '../animations/Reveal';
+
 import { EffectCoverflow } from 'swiper/modules';
 
 export default function FreeVideoCourses() {
@@ -12,10 +14,13 @@ export default function FreeVideoCourses() {
     <div className='trial-video-courses'>
       <div className="container">
         <div className="content">
-          <div className="trial-text-part">
-            <h1>Пробные видеоуроки</h1>
-            <p>Мы уверены, что после просмотра пробных видео-уроков вы захотите узнать больше и присоединиться к нашему образовательному сообществу.</p>
-          </div> 
+          <Reveal direction={"left"}>
+            <div className="trial-text-part">
+              <h1>Пробные видеоуроки</h1>
+              <p>Мы уверены, что после просмотра пробных видео-уроков вы захотите узнать больше и присоединиться к нашему образовательному сообществу.</p>
+            </div> 
+          </Reveal>
+          <Reveal direction={"right"}>
           <Swiper 
           effect={"coverflow"}
           slidesPerView={3}
@@ -41,6 +46,7 @@ export default function FreeVideoCourses() {
                 <a href=""><div className="video-part">3</div></a>
             </SwiperSlide>
           </Swiper>
+          </Reveal>
         </div>
       </div>
 

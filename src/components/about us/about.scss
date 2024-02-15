@@ -13,6 +13,7 @@
         .content{
             display: flex;
             position: relative;
+
             .left-content{
               position: relative;
               z-index: 2;
@@ -20,6 +21,9 @@
               margin-top: 15%;
               text-align: start;
               color: white;
+              .reveal {
+                z-index: 3;
+              }
                 .icons{
                     width: 70%;
                     display: flex;
@@ -28,18 +32,21 @@
                 }
     
                 .big-text{
+                    margin-top: 1rem;
                     font-weight: 500;
                     color: #4D4E50;
                     margin-bottom: 2rem;
                 }
     
-                p{
-                    font-weight: 500;
-                    font-size: 1.25rem;
-                    margin-bottom: 15%;
+                .history {
+                  margin-top: 1rem;
+                  font-weight: 500;
+                  font-size: 1.25rem;
+                  margin-bottom: 15%;
                 }
     
                 .goal{
+                  margin-top: 2rem;
                     width: 100%;
                     height: auto;
                     img{
@@ -57,12 +64,13 @@
             }
 
             .devices{
-                width: 45%;
-                position: absolute;
-                right: 0;
-                top: 15%;
-                z-index: 0;
-            }
+              height: 70rem;
+              position: absolute;
+              right: 0;
+              top: 15%;
+              z-index: 0;
+              }
+            
         }
 
 
@@ -83,6 +91,7 @@
     .about{
         .about-desktop-container{
             .content{
+
                 .left-content{
                     .icons{
                         img{
@@ -117,4 +126,11 @@
             }
         }
     }
+}
+
+@media (max-width: 1024px) {
+  
+  .devices {
+    height: 50rem !important;
+  }
 }

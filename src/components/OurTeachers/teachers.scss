@@ -9,7 +9,10 @@ ul li {
 .teachers {
   padding-top: 10rem;
 
-
+  .title-primary {
+    text-align: center;
+    padding-bottom: 10rem;
+  }
   .teachers-list {
     display: grid;
     align-items: first baseline;

@@ -16,8 +16,9 @@ const Reveal = ({children, direction, opacity}) => {
   }, [isInView])
 
   return (
-    <div className='reveal' style={{position: "relative", overflow: "hidden", width: "100%"}}>
+    <div >
       <motion.div
+      className='reveal' style={{position: "relative", overflow: "hidden", width: "100%"}}
       ref={ref}
       initial={direction}
       animate={mainControls}

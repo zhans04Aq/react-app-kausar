@@ -2,7 +2,7 @@
 
 .consultation {
 
-  padding: 40rem 0;
+  padding: 55rem 0;
   background-position: center;
   background-size: cover;
 
@@ -23,10 +23,14 @@
       border: none;
       font-family: inherit;
       padding: 1rem 2rem;
-      border-radius: 1.5rem;
+      border-radius: 1.1rem;
       outline: none;
       font-size: 1.5rem;
       box-shadow: 0 4px 47px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .reveal {
+      width: 100%;
     }
 
     button {
@@ -36,7 +40,7 @@
       border: none;
       font-family: inherit;
       padding: 1rem 2rem;
-      border-radius: 1.5rem;
+      border-radius: 1.1rem;
       outline: none;
       font-size: 1.5rem;
       box-shadow: 0 4px 47px 0 rgba(0, 0, 0, 0.25);
@@ -47,17 +51,25 @@
       color: white;
       max-width: 35rem;
       h1 {
-        font-weight: 900;
+        font-weight: 600;
         font-size: 3rem;
       }
       p {
         margin-top: 2rem;
-        font-size: 1.88rem;
+        font-size: 1.2rem;
       }
       @media (max-width: 1024px) {
         h1 {
           font-size: 2rem !important;
         }
+      }
+
+      @media (max-width: 320px) {
+        h1{
+          font-size: 1.3rem !important;
+        }
+
+
       }
     }
 
@@ -72,10 +84,79 @@
     }
   }
 }
+@media (max-width:768px) {
+  form{
+    height: 40rem;
+    border-radius: 2.62rem !important;
+    padding: 2rem 0 !important;
+    input{
+      width: 100% !important;
+      
+    }
 
-@media (max-width: 768px) {
-  .form-body {
-    max-width: 100% !important;
-    margin: 0 !important;
+    button{
+      margin-top: 15%;
+    }
+
+    .form-body{
+      padding: 1rem !important;
+      gap: 1.2rem !important;
+      max-width: 80% !important;
+      margin-top: 5rem !important;
+
+    }
+  }
+}
+@media (max-width:500px) {
+  form{
+    height: 30rem;
+    border-radius: 2.62rem !important;
+    padding: 2rem 0 !important;
+    input{
+      width: 100% !important;
+      
+    }
+
+    button{
+      margin-top: 5%;
+    }
+
+    .form-body{
+      padding: 1rem !important;
+      gap: 1.2rem !important;
+      max-width: 80% !important;
+      margin-top: 5rem !important;
+
+    }
+  }
+  p{
+    font-style: .7rem !important;
+  }
+}
+@media (max-width:400px) {
+  form{
+    height: 20rem;
+    border-radius: 2.62rem !important;
+    padding: 1rem !important;
+    input{
+      width: 100% !important;
+      height: 2.5rem;
+      margin: 1% 0;
+    }
+
+    button{
+      height: 2.5rem;
+      margin-top: 10%;
+    }
+
+    .form-body{
+      padding: .1rem !important;
+      gap: .2rem !important;
+      max-width: 80% !important;
+      margin-top:1rem !important;
+    }
+  }
+  p{
+    font-style: .7rem !important;
   }
 }

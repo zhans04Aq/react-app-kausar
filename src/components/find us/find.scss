@@ -121,12 +121,17 @@ ul li {
 }
 
 @media (max-width:768px) {
+  .find .content .content-info .info-list {
+    gap:1rem
+  }
   .find{
     .content{
+      margin-top: 10px;
       .content-info{
-        width: 80%;
+        width: 100%;
         border-radius: 30px;
       }
     }
   }
 }
+

@@ -20,18 +20,13 @@ export default function Benefits(){
           className="benefits"
         >
           
-            <div  className="desktop-container">
-              <img src={lightSrc4} alt="" className="light-src" id="light-4" />
-              {/* <img src={noise} alt="" className="noise-fx" /> */}
-                
-
 
               <img src={noise} alt="" className="noise-fx" />
 
                 <div className="benefits-head">
                   <Reveal direction="right">
                     <h1 className="title-primary">
-                      В чем наша преимущества?
+                      В чем наши преимущества?
                     </h1>
                   </Reveal>
                   <marquee behavior="infinite" direction="left">
@@ -119,7 +114,6 @@ export default function Benefits(){
                           </div>
                           <p>
                           По окончании курса мы <br /> оказываем поддержку в  <br /> поиске работы, <br /> консультируем по <br /> трудоустройству и даем <br /> рекомендации для успешного начала карьеры бухгалтера.
-
                           </p>
                       </div>
                     </Reveal>
@@ -137,6 +131,5 @@ export default function Benefits(){
                     </Reveal>
                 </div>
             </div>
-        </div>
     )
 }

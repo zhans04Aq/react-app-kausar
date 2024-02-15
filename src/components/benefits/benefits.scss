@@ -83,7 +83,7 @@
                 box-sizing: border-box;
                 color: white;
                 margin: 10% 0;
-                div{
+                  div{
                     width: 100%;
                     display: flex;
                     align-items: center;
@@ -116,8 +116,8 @@
             }
 
             .card:last-child{
-              div{
-                margin: 5% 0 15%;
+              p{
+                margin: 25% 0 0 0;
               }
             }
             .circle-element{

@@ -15,7 +15,7 @@ import RevealBottom from "../animations/RevealBottom";
 
 export default function About (){
     return(
-        <div className="about" style={{backgroundImage: `url(${aboutBg})`}}>
+        <div className="about" >
             <div className="container">
             <div className="about-desktop-container">
                 <RevealBottom>

@@ -85,36 +85,38 @@ header{
 
 @media (max-width: 768px) {
 header{
+  height: 100vh;
   padding: 1rem 0;
   .graph{
-    padding: 10rem 0;
+    padding: 12rem 0;
     background-size: contain !important;
-    .header-content {
-      padding: 5% 0;
-      width: 100% !important;
-      border-radius: 0 !important;
-      display: flex;
-      justify-content: center ;
-      align-items: center;
-      h1{
-        font-size: 20px;
-        font-size: calc(20px + (15 + 15 * .7)*(100vw - 420px)/1440px);
-        text-align: center;
-      }
-      p{
-        text-align: center;
-        font-size: 15px;
-      }
-      .button-container {
+      .header-content {
+        padding: 5% 0;
+        width: 100% !important;
+        border-radius: 0 !important;
         display: flex;
-        justify-content: center;
+        justify-content: center ;
         align-items: center;
-        button {
-          padding: 0.75rem !important;
-          font-size: 12px;
+        h1{
+          font-size: 20px;
+          font-size: calc(20px + (15 + 15 * .7)*(100vw - 420px)/1440px);
+          text-align: center;
         }
-      }
+        p{
+          text-align: center;
+          font-size: 15px;
+        }
+        .button-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          button {
+            padding: 0.75rem !important;
+            font-size: 12px;
+          }
+        }
     }
+    
   }
 }
 }

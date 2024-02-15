@@ -5,7 +5,7 @@ import {motion, useInView, useAnimation} from "framer-motion"
 const Reveal = ({children, direction, opacity}) => {
 
   const ref = useRef();
-  const isInView = useInView(ref, {once: true});
+  const isInView = useInView(ref);
 
   const mainControls = useAnimation();
 
@@ -37,7 +37,7 @@ const Reveal = ({children, direction, opacity}) => {
         },
         
       }}
-      transition={{duration: 1}}
+      transition={{duration: 0.5}}
     >
       {children}
     </motion.div>

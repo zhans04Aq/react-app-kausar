@@ -4,10 +4,10 @@ header{
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
 
     .graph {
-      padding: 20rem 0;
+      padding: 15rem 0;
       width: 100%;
       background-repeat: no-repeat;
       background-position: center;
@@ -88,7 +88,7 @@ header{
   height: 100vh;
   padding: 1rem 0;
   .graph{
-    padding: 12rem 0;
+    padding: 8rem 0;
     background-size: contain !important;
       .header-content {
         padding: 5% 0;

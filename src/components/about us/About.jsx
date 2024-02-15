@@ -8,10 +8,11 @@ import logo from '../../assets/icons/logo-about-us-icon.svg'
 import flagIcon from '../../assets/icons/flag-icon.svg'
 import targetIcon from '../../assets/icons/target-icon.svg'
 import devices from '../../assets/img/devices-img.svg'
+import aboutBg from "../../assets/img/aboutus-bg.png"
 
 export default function About (){
     return(
-        <div className="about">
+        <div className="about" style={{backgroundImage: `url(${aboutBg})`}}>
             <div className="container">
             <div className="about-desktop-container">
                 <h1 className="title-primary">О нас </h1>

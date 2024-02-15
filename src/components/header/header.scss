@@ -1,17 +1,18 @@
 header{
     display: flex;
     width: 100%;
-    padding: 50rem 0;
+    padding: 10rem 0;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 
     .graph {
-      padding: 26rem 0;
+      padding: 10rem 0;
       width: 100%;
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
+      background-position: center;
       position: absolute;
       top: 0;
       left: 0;

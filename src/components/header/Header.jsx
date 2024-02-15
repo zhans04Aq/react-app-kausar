@@ -7,7 +7,9 @@ import gradientBg from "../../assets/img/header-gradient-bg.png"
 
 const Header = () =>{
     return(
-        <header style={{backgroundImage: `url(${gradientBg})`}}>
+        <header 
+          style={{backgroundImage: `url(${gradientBg})`}}
+        >
             
             <div className="graph" style={{backgroundImage: `url(${graphEl})`}}>
               <div className="header-content">

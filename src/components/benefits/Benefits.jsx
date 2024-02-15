@@ -10,11 +10,21 @@ import lightSrc2 from '../../assets/img/light-src2.png'
 import lightSrc3 from '../../assets/img/light-src3.png'
 import lightSrc4 from '../../assets/img/light-src4.png'
 import noise from '../../assets/img/noice-fx-benefits.png'
+
+
+
+
 export default function Benefits(){
     return(
-        <div className="benefits">
+        <div 
+          initial="hidden"
+          whileInView="visible"
+          viewport={{amount: 0.4}}
+          transition={{duration: 3}}
+          className="benefits"
+        >
           
-            <div className="desktop-container">
+            <div  className="desktop-container">
               <img src={lightSrc1} alt="" className="light-src" id="light-1" />
               <img src={lightSrc2} alt="" className="light-src" id="light-2" />
               <img src={lightSrc3} alt="" className="light-src" id="light-3" />
@@ -120,9 +130,6 @@ export default function Benefits(){
                         </p>
                     </div>
                 </div>
-            </div>
-            <div className="mobile-container">
-
             </div>
         </div>
         </div>

@@ -40,7 +40,7 @@ ul li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation-fill-mode: forwards;
-  animation: shine 2s infinite linear;
+  animation: shine 2s infinite ease-in-out;
 }
 
 @media (max-width: 1024px) {
@@ -55,10 +55,10 @@ ul li {
     background-position: 0
   }
   60% {
-    background-position: 150px
+    background-position:  25rem
   }
   100% {
-    background-position: 280px
+    background-position: 50rem
   }
 }
  

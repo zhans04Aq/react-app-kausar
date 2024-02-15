@@ -1,12 +1,17 @@
-import React from 'react'
+import {useState, React} from 'react'
 import "./consultation.scss"
 
 import consultationBg from "../../assets/img/consultation-bg.png"
 
+
 export default function Consultation() {
 
-  const handleSubmit = () => {
-
+  const [name, setName] = useState('')
+  const handleSubmit = (event) => {
+    
+    event.preventDefault();
+    let message = `Меня зовут - ${name}. Проконсультируете меня?`
+    window.location.href=`https://wa.me/77774345295?text=${encodeURIComponent(message)}`
   }
 
   return (
@@ -19,7 +24,7 @@ export default function Consultation() {
             <p>Оставьте свои контактные данные и мы с вами свяжемся.</p>
           </div>
           <div className="form-body">
-            <input type="text" placeholder='Имя'/>
+            <input onChange={(e)=>setName(e.target.value)} type="text" placeholder='Имя'/>
             <input type="tel" placeholder='Телефон'/>
             <button>Отправить заявку</button>
           </div>

@@ -22,7 +22,7 @@ export default function Statistics (){
                         <div className="circle">
                           1200
                         </div>
-                        <p>человек стали бухгалтерами и повысили квалификацию</p>
+                        <p>человек стали <br /> бухгалтерами и повысили<br /> квалификацию</p>
                       </li>
                       <li>
                         <div className="circle">

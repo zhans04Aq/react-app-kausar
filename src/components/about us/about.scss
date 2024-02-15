@@ -28,11 +28,11 @@
                     width: 70%;
                     display: flex;
                     justify-content: space-around;
+
                 }
     
                 .big-text{
                     font-weight: 500;
-                    font-size: 2.5rem;
                     color: #4D4E50;
                     margin-bottom: 2rem;
                 }
@@ -79,7 +79,46 @@
 
 @media (max-width: 1024px) {
   .big-text {
-    font-size: 1.25rem !important;
+    // font-size: 1.25rem;
     color: #0024E3 !important;
   }
+}
+@media (max-width: 768px) {
+    .about{
+        .about-desktop-container{
+            .content{
+                .left-content{
+                    .icons{
+                        img{
+                            width: 20%;
+                        }
+    
+                        img:first-child{
+                            width: 10%;
+                        }
+                    }
+                    .big-text{
+                        h1{
+                            font-size: calc(20px + (30 + 30 *.7) * ((100vw - 430px)/1440));
+                        }
+                    }
+
+                    p{
+                        font-size: calc(10px + (10 + 10 *.7) * ((100vw - 430px)/1440));
+                    }
+
+                    .goal{
+                        h3{
+                            font-size: calc(7px + (13 + 13 *.7) * ((100vw - 430px)/1440));
+                            margin: 3% 0;
+                        }
+
+                        p{
+                            font-size: calc(10px + (10 + 10 *.7) * ((100vw - 430px)/1440));
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

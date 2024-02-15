@@ -36,7 +36,6 @@ function App() {
       <Teachers/>
       <Consultation/>
       <Footer/>
-
       
     </div>
   );

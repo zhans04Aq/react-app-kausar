@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 footer {
-
+  padding-bottom: 4rem;
   .footer-top {
     @include displayFlex(row, center, default, 3rem);
     .logo {

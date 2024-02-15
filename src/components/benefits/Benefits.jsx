@@ -25,10 +25,6 @@ export default function Benefits(){
         >
           
             <div  className="desktop-container">
-              <img src={lightSrc1} alt="" className="light-src" id="light-1" />
-              <img src={lightSrc2} alt="" className="light-src" id="light-2" />
-              <img src={lightSrc3} alt="" className="light-src" id="light-3" />
-              <img src={lightSrc4} alt="" className="light-src" id="light-4" />
               {/* <img src={noise} alt="" className="noise-fx" /> */}
                 <div className="component-title">
                     <h1>В чем наши преимущества?</h1>
@@ -77,7 +73,7 @@ export default function Benefits(){
                             <h3>богатый опыт</h3>
                         </div>
                         <p>
-                        Вы будете обучаться на <br /> профессиональной <br /> программе, которая <br /> является стандартом <br /> в области бухгалтерского <br /> учета.
+                        Мы обучили более 15 000 <br /> студентов и 80% из них <br /> успешно трудоустроились <br /> благодаря нашим знаниям <br /> и практическим навыкам.
                         </p>
                     </div>
                     <div className="card">
@@ -123,7 +119,7 @@ export default function Benefits(){
                     <div className="card">
                         <div>
                             <h1>06</h1>
-                            <h3>богатый опыт</h3>
+                            <h3>обучение у нас</h3>
                         </div>
                         <p>
                         Вы будете обучаться на <br /> профессиональной <br /> программе, которая <br /> является стандартом <br /> в области бухгалтерского <br /> учета.

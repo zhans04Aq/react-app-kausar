@@ -63,23 +63,6 @@
             z-index: 2;
         }
 
-        #light-1{
-            left: 0;
-            top: 180%;
-        }
-        #light-2{
-            right: 0;
-        }
-        #light-3{
-            left: 0;
-            top: 350%;
-        }
-        #light-4{
-            right: 0;
-            top: 375%;
-            width: 30%;
-        }
-
         .benefits-cards{
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -104,6 +87,7 @@
                     display: flex;
                     align-items: center;
                     gap: 5%;
+                    margin: 5% 0 10%;
                     // margin-bottom: 15%;
                         h1{
                             font-weight: 700;
@@ -128,6 +112,12 @@
                     font-size: 23px;
                 }
             }
+
+            .card:last-child{
+              div{
+                margin: 5% 0 15%;
+              }
+            }
             .circle-element{
                 position: absolute;
                 z-index: 0;
@@ -135,22 +125,25 @@
 
             #circle-1{
                 position: absolute;
-                left: 0;
-                top: 5%;
+                left: 12%;
+                top: 7%;
             }
             
             #circle-2{
-                right: 0;
+                right: 12%;
                 top: 37%;
+                width: 12%;
             }
             
             #circle-3{
-                left: 0;
-                bottom: 20%;
+                left: 13%;
+                bottom: 22%;
+                width: 5%;
             }
             #circle-4{
                 bottom: 5%;
-                right: 5%;
+                right: 13%;
+                width: 12%;
             }
 
 

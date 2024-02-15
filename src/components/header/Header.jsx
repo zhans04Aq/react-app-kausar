@@ -13,7 +13,7 @@ const Header = () =>{
             
             <div className="graph" style={{backgroundImage: `url(${graphEl})`}}>
               <div className="header-content">
-                  <h1>Обучим професии ‘Бухгалтер’ с нуля!</h1>
+                  <h1>Жансерик</h1>
                   <p>Пройдите полную подготовку в <span> Kausar <br />
                   Business Consulting</span> и станьте <br />  специалистом Бухгалтером! </p>
                   <div className="button-container">

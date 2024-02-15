@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useState} from "react";
-import {motion} from "framer-motion"
 
 import './navbar.scss'
 // import '../../assets/hamburgers/dist/hamburgers.css'
@@ -12,15 +11,6 @@ import whatsappIcon from '../../assets/icons/whatsapp-icon.png'
 // img import 
 
 
-const animation = {
-  hidden: {
-    opacity: 0
-  },
-  visible: {
-    opacity: 1,
-    transition: "1s"
-  }
-}
 
 const Navbar = () =>{
     const [clicked, setClicked] = useState(false)
@@ -32,11 +22,7 @@ const Navbar = () =>{
 
 
     return(
-        <motion.nav
-          initial="hidden"
-          whileInView="visible"
-          variants={animation}
-        >
+        <nav>
           <div className="container">
             <div className="desktop-container">
               <img src={logoPng} alt="" className="logo" />
@@ -78,7 +64,7 @@ const Navbar = () =>{
                 Контакты и адрес
               </li>
             </ul>
-        </motion.nav>
+        </nav>
     )
 }
 export default Navbar

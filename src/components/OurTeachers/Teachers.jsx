@@ -5,12 +5,15 @@ import BaygzinovnaImg from "../../assets/img/BaygazinovaImg.png"
 import TurispaevImg from "../../assets/img/TurispaevImg.png"
 import TurymbetImg from "../../assets/img/TurymbetImg.png"
 
+import RevealBottom from '../animations/RevealBottom'
+
 export default function Teachers () {
   return (
     <div className='teachers'>
       <div className='container'>
         {/* <h1 className='title-primary'>Наши преподаватели</h1> */}
         <ul className='teachers-list'>
+          <RevealBottom>
           <li className='teacher-card'>
             <img src={BaygzinovnaImg} alt='Туриспаев Ержан Молдагалиевич'/>
             <h1>
@@ -21,6 +24,8 @@ export default function Teachers () {
             </span>
             <p>Магистр экономических наук Действующий бухгалтер</p>
           </li>
+          </RevealBottom>
+          <RevealBottom>
           <li className='teacher-card'>
             <img src={TurispaevImg} alt='Туриспаев Ержан Молдагалиевич'/>
             <h1>
@@ -35,6 +40,8 @@ export default function Teachers () {
               Магистр экономических наук
             </p>
           </li>
+          </RevealBottom>
+          <RevealBottom>
           <li className='teacher-card'>
             <img src={TurymbetImg} alt='Туриспаев Ержан Молдагалиевич'/>
             <h1>
@@ -49,6 +56,7 @@ export default function Teachers () {
               Имею сертификат Профессионального бухгалтера РК
             </p>
           </li>
+          </RevealBottom>
         </ul>
       </div>
     </div>

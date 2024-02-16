@@ -14,7 +14,7 @@ import Reveal from "../animations/Reveal";
 
 export default function About (){
     return(
-        <div className="about" >
+        <div id="about-us" className="about" >
             <div className="container">
             <div className="about-desktop-container">
                 <RevealBottom>
@@ -22,26 +22,26 @@ export default function About (){
                 </RevealBottom>
                 <div className="content">
                     <div className="left-content">
-                        <Reveal direction={"left"}>
+
                           <div className="icons">
                               <img src={approvedIcon} alt="" />
                               <img src={logo} alt="" />
                               <img src={rkFinance} alt="" />
                           </div>
-                        </Reveal>
-                        <Reveal direction={"left"}>
+                   
+                        
                           <div className="big-text">
                               <h1>Конкурентоспособный.</h1>
                               <h1>Квалифицированный.</h1>
                               <h1>Аккредитованный.</h1>
                           </div>
-                        </Reveal>
-                        <Reveal direction={"left"}>
+                        
+                       
                           <p>
                               Центр образован в 2015 году с целью <br /> оказания услуг по повышению <br /> квалификации специалистов <br /> финансово-экономического блока, для <br /> подготовки квалифицированных <br /> бухгалтеров, экономистов и <br /> финансистов. Является социальным <br /> партнером Алматинского <br /> государственного бизнес колледжа с <br /> 2019 года. 
                           </p>
-                        </Reveal>
-                        <Reveal direction={"left"}>
+                        
+                       
                           <div className="goal">
                               <img src={flagIcon} alt="" />
                               <h3>Наша цель</h3>
@@ -49,8 +49,8 @@ export default function About (){
                               квалифицированных <br />
                               бухгалтеров в Казахстане.</p>
                           </div>
-                        </Reveal>
-                        <Reveal direction={"left"}>
+                        
+                        
                           <div className="goal">
                               <img src={targetIcon} alt="" />
                               <h3>Наша миссия</h3>
@@ -60,7 +60,7 @@ export default function About (){
                               нашим учебным центром в <br />
                               каждом городе Казахстана!</p>
                           </div>
-                        </Reveal>
+                        
                     </div>
                     <img className="devices" src={devices} alt="" />
                 </div>

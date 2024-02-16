@@ -8,13 +8,18 @@ import phoneIcon from "../../assets/icons/phone-icon.svg"
 import emailIcon from "../../assets/icons/email-icon.svg"
 import findGradientBg from "../../assets/img/find-bg-gradient.png"
 
+import Reveal from '../animations/Reveal';
+
 export default function Find() {
   return (
-    <div className='find'>
+    <div id='contacts' className='find'>
       <img className='gradient-bg' src={findGradientBg} alt="" />
       <div className='container'>
-        <h1 className='title-primary'>Где вы можете найти нас</h1>
+        <Reveal direction={"left"}>
+          <h1 className='title-primary'>Где вы можете найти нас</h1>
+        </Reveal>
         <div className='content'>
+          <Reveal direction={"right"}>
           <div className='content-info'>
             <ul className='info-list'>
               <li className='info-item'>
@@ -68,6 +73,7 @@ export default function Find() {
             
             
           </div>
+          </Reveal>
           
           
           

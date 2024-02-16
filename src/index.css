@@ -30,6 +30,11 @@ ul li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .title-primary {
   font-family: var(--font3);
   font-weight: 500;

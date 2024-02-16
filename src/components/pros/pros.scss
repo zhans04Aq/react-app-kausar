@@ -4,9 +4,9 @@
     width: 100%;
     height: auto;
     margin-top: 15%;
-    .pros-desktop-container{
-        width: 100%;
-        height: auto;
+    .pros-desktop-container {
+      width: 100%;
+      height: auto;
         .title{
             width: 100%;
             height: auto;
@@ -73,7 +73,6 @@
   .row-content {
 
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
-
     
   }
 }

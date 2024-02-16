@@ -5,6 +5,9 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import "swiper/scss"
 import 'swiper/css/effect-coverflow';
 
+import SliderCover from "../../assets/icons/Group_30.svg"
+import Banner from "../../assets/icons/banner.svg"
+
 import { EffectCoverflow } from 'swiper/modules';
 
 export default function FreeVideoCourses() {
@@ -16,31 +19,11 @@ export default function FreeVideoCourses() {
             <h1>Пробные видеоуроки</h1>
             <p>Мы уверены, что после просмотра пробных видео-уроков вы захотите узнать больше и присоединиться к нашему образовательному сообществу.</p>
           </div> 
-          <Swiper 
-          effect={"coverflow"}
-          slidesPerView={3}
-          centeredSlides={true}
-          initialSlide={1}
-          loop={true}
-          coverflowEffect={{
-            rotate: 0,
-            stretch: 10,
-            depth: 100,
-            modifier: 2,
-          }}
-          modules={[EffectCoverflow]}
-          className='swiper-container'
-          >
-            <SwiperSlide>
-                <a href=""><div className="video-part">1</div></a>
-            </SwiperSlide>
-            <SwiperSlide>
-                <a href=""><div className="video-part">2</div></a>
-            </SwiperSlide>
-            <SwiperSlide>
-                <a href=""><div className="video-part">3</div></a>
-            </SwiperSlide>
-          </Swiper>
+          <a href="https://wa.me/77758281024">
+            
+            <img style={{width: "25rem"}} src={Banner}/>
+
+          </a>
         </div>
       </div>
 

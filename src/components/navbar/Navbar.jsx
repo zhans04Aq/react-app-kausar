@@ -28,12 +28,12 @@ const Navbar = () =>{
               <img src={logoPng} alt="" className="logo" />
               
               <div className="action">
+
                 <ul className="soc-media">
                   <li>
-                    <img src={whatsappIcon} alt="" />
-                  </li>
-                  <li>
-                    <img src={instaIcon} alt="" />
+                    <a href="https://www.instagram.com/kausar_consulting?igsh=MXI5cWd5bHdjaWZvbA==">
+                      <img src={instaIcon} alt="" />
+                    </a>
                   </li>
                 </ul>
 
@@ -49,19 +49,30 @@ const Navbar = () =>{
 
             <ul className={`nav-bar ${clicked ? "active" : ""}`}>
               <li>
-                Курс №1
+                <a href="#about-us">
+                  О нас
+                </a>
               </li>
               <li>
-                Курс №2
+              
+                <a href="#courses">
+                  Курсы
+                </a>
               </li>
               <li>
-                Курс №3
+                <a href="#contacts">
+                  Контакты и адрес
+                </a>
               </li>
               <li>
-                О нас
+                <a href="#consultation">
+                  Консультация
+                </a>
               </li>
               <li>
-                Контакты и адрес
+                <a href="https://www.instagram.com/kausar_consulting?igsh=MXI5cWd5bHdjaWZvbA==">
+                  Инстаграм
+                </a>
               </li>
             </ul>
         </nav>

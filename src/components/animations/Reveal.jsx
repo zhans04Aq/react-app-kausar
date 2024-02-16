@@ -21,7 +21,7 @@ const Reveal = ({children, direction, opacity}) => {
       className='reveal' style={{position: "relative", overflow: "hidden", width: "100%"}}
       ref={ref}
       initial={direction}
-      animate={mainControls}
+      whileInView={"visible"}
       variants={{
         right: {
           x: 300,

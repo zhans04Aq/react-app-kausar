@@ -17,10 +17,9 @@ const RevealBottom = ({children}) => {
 
   return (
     <motion.div
-      className='reveal'
       ref={ref}
       initial="hidden"
-      animate={mainControls}
+      whileInView={"visible"}
       variants={{
         hidden: {
           y: 300,

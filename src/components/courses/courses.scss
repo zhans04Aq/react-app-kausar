@@ -149,6 +149,9 @@
 
 
 @media (max-width: 1024px) {
+  .courses {
+    padding: 5rem 0;
+  }
   .card-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
     .card {

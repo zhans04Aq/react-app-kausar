@@ -17,7 +17,7 @@ export default function Consultation() {
   }
 
   return (
-    <div className='consultation' style={{backgroundImage: `url(${consultationBg})`}}>
+    <div id='consultation' className='consultation' style={{backgroundImage: `url(${consultationBg})`}}>
 
       <div className='container'>
         <RevealBottom>

@@ -32,19 +32,7 @@
   }
     
 
-  .swiper-wrapper {
-    .video-part {
-      width: 25rem;
-      height: 14rem;
-      background: white;
-      border-radius: 2rem;
-      color: black;
-      display: grid;
-      place-items: center;
-      text-decoration: none;
-      
-    }
-  }
+  
 }
 
 
@@ -56,11 +44,8 @@
     .trial-text-part {
       width: 100%;
     }
-    .swiper-wrapper {
-      .video-part {
-        width: 15rem;
-        height: 10rem;
-      }
+    a {
+      margin-top: 4rem;
     }
   }
 }

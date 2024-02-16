@@ -267,7 +267,7 @@ export default function Courses(){
                                  </h1>
                             </div>
                             <div className="center-content">
-                                <p>Консультация с экспертом</p>
+                                <p>Скоро!</p>
                             </div>
                         </div>
                     </div>

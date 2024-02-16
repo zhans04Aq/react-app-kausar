@@ -17,7 +17,7 @@ const Header = () =>{
                     <p>Пройдите полную подготовку в <span> Kausar <br />
                     Business Consulting</span> и станьте <br />  специалистом Бухгалтером! </p>
                     <div className="button-container">
-                        <button>Записаться</button>
+                        <a href="https://wa.me/77758281024?text=`Хочу записаться на курс!`"><button>Записаться</button></a>
                     </div>
                 </div>
               </Reveal>

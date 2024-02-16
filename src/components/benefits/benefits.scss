@@ -176,6 +176,11 @@
   }
 }
 @media (max-width: 768px) {
+  .benefits .desktop-container .benefits-head .title-primary {
+    text-align: center;
+    font-size: 1.5rem !important;
+    margin-bottom: 2rem;
+}
 .benefits{
   padding: 1rem 0;
     .desktop-container{

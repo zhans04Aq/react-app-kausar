@@ -13,7 +13,7 @@ export default function Consultation() {
     
     event.preventDefault();
     let message = `Меня зовут - ${name}. Проконсультируете меня?`
-    window.location.href=`https://wa.me/77774345295?text=${encodeURIComponent(message)}`
+    window.location.href=`https://wa.me/77758281024?text=${encodeURIComponent(message)}`
   }
 
   return (
